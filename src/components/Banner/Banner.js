@@ -1,59 +1,8 @@
 import React from "react";
 import "./Banner.css";
-import Header from "../Header/Header";
-
-// // Import Swiper React components
-// import { Swiper, SwiperSlide } from "swiper/react";
-
-// // Import Swiper styles
-// import "swiper/css";
-// import "swiper/css/pagination";
-// import "swiper/css/navigation";
-
-// // import required modules
-// import { Pagination, Navigation, HashNavigation } from "swiper/modules";
 
 const Banner = () => {
   return (
-    // <div>
-    //   <Swiper
-    //     spaceBetween={30}
-    //     hashNavigation={{
-    //       watchState: true,
-    //     }}
-    //     pagination={{
-    //       clickable: true,
-    //     }}
-    //     navigation={true}
-    //     modules={[Pagination, Navigation, HashNavigation]}
-    //     className="mySwiper"
-    //   >
-    //     <SwiperSlide data-hash="slide1">
-    //       <img
-    //         src="https://enroute.com.bd/wp-content/uploads/2022/05/home-slide-recruitment.jpg"
-    //         alt=""
-    //       />
-    //     </SwiperSlide>
-    //     <SwiperSlide data-hash="slide2">
-    //       <img
-    //         src="https://enroute.com.bd/wp-content/uploads/2022/05/home-slide-managed-service.jpg"
-    //         alt=""
-    //       />
-    //     </SwiperSlide>
-    //     <SwiperSlide data-hash="slide3">
-    //       <img
-    //         src="https://enroute.com.bd/wp-content/uploads/2022/05/home-slide-executive-edu.jpg"
-    //         alt=""
-    //       />
-    //     </SwiperSlide>
-    //     <SwiperSlide data-hash="slide4">
-    //       <img
-    //         src="https://enroute.com.bd/wp-content/uploads/2022/05/home-slide-consulting.jpg"
-    //         alt=""
-    //       />
-    //     </SwiperSlide>
-    //   </Swiper>
-    // </div>
     <div className="carousel w-full">
       <div id="slide1" className="carousel-item relative w-full">
         <img
@@ -61,25 +10,31 @@ const Banner = () => {
           className="w-full"
           alt=""
         />
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <div className="banner-container absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide4" className="btn btn-circle">
             ❮
           </a>
           <div>
-            <div>
-              <div></div>
-              <p>Formulating Competitive HR Advantage</p>
-              <div></div>
+            <div className="banner-p-text-parent-div">
+              <div className="banner-blank-div"></div>
+              <p className="banner-p-text">
+                Formulating Competitive HR Advantage
+              </p>
+              <div className="banner-blank-div"></div>
             </div>
 
-            <h3>
-              Specialized <span>Human Resource </span> solution
+            <h3 className="banner-specialized">
+              Specialized{" "}
+              <span className="banner-human-color-text">
+                Human <br /> Resource{" "}
+              </span>{" "}
+              solution
             </h3>
-            <p>
-              We take a bold approach to formulate and implement HR strategies
-              for competitive advantage
+            <p className="banner-p-text mt-7 mb-7">
+              We take a bold approach to formulate and implement HR <br />{" "}
+              strategies for competitive advantage
             </p>
-            <button>GET STARTED</button>
+            <button className="banner-get-start-btn">GET STARTED</button>
           </div>
           <a href="#slide2" className="btn btn-circle">
             ❯
@@ -92,10 +47,32 @@ const Banner = () => {
           className="w-full"
           alt=""
         />
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <div className="banner-container absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide1" className="btn btn-circle">
             ❮
           </a>
+          <div>
+            <div className="banner-p-text-parent-div">
+              <div className="banner-blank-div"></div>
+              <p className="banner-p-text">
+                Formulating Competitive HR Advantage
+              </p>
+              <div className="banner-blank-div"></div>
+            </div>
+
+            <h3 className="banner-specialized">
+              Specialized{" "}
+              <span className="banner-human-color-text">
+                Human <br /> Resource{" "}
+              </span>{" "}
+              solution
+            </h3>
+            <p className="banner-p-text mt-7 mb-7">
+              We take a bold approach to formulate and implement HR <br />{" "}
+              strategies for competitive advantage
+            </p>
+            <button className="banner-get-start-btn">GET STARTED</button>
+          </div>
           <a href="#slide3" className="btn btn-circle">
             ❯
           </a>
@@ -107,10 +84,32 @@ const Banner = () => {
           className="w-full"
           alt=""
         />
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <div className="banner-container absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide2" className="btn btn-circle">
             ❮
           </a>
+          <div>
+            <div className="banner-p-text-parent-div">
+              <div className="banner-blank-div"></div>
+              <p className="banner-p-text">
+                Formulating Competitive HR Advantage
+              </p>
+              <div className="banner-blank-div"></div>
+            </div>
+
+            <h3 className="banner-specialized">
+              Specialized{" "}
+              <span className="banner-human-color-text">
+                Human <br /> Resource{" "}
+              </span>{" "}
+              solution
+            </h3>
+            <p className="banner-p-text mt-7 mb-7">
+              We take a bold approach to formulate and implement HR <br />{" "}
+              strategies for competitive advantage
+            </p>
+            <button className="banner-get-start-btn">GET STARTED</button>
+          </div>
           <a href="#slide4" className="btn btn-circle">
             ❯
           </a>
@@ -122,10 +121,32 @@ const Banner = () => {
           className="w-full"
           alt=""
         />
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <div className="banner-container absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide3" className="btn btn-circle">
             ❮
           </a>
+          <div>
+            <div className="banner-p-text-parent-div">
+              <div className="banner-blank-div"></div>
+              <p className="banner-p-text">
+                Formulating Competitive HR Advantage
+              </p>
+              <div className="banner-blank-div"></div>
+            </div>
+
+            <h3 className="banner-specialized">
+              Specialized{" "}
+              <span className="banner-human-color-text">
+                Human <br /> Resource{" "}
+              </span>{" "}
+              solution
+            </h3>
+            <p className="banner-p-text mt-7 mb-7">
+              We take a bold approach to formulate and implement HR <br />{" "}
+              strategies for competitive advantage
+            </p>
+            <button className="banner-get-start-btn">GET STARTED</button>
+          </div>
           <a href="#slide1" className="btn btn-circle">
             ❯
           </a>

@@ -1,0 +1,42 @@
+.banner-container {
+  align-items: center;
+}
+.banner-p-text-parent-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.banner-blank-div {
+  background-color: green;
+  height: 2px;
+  width: 70px;
+}
+.banner-p-text {
+  color: white;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.banner-specialized {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+}
+.banner-human-color-text {
+  color: orangered;
+}
+
+.banner-get-start-btn {
+  background-color: green;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  width: 160px;
+  border-radius: 4px;
+}
+
+.banner-get-start-btn:hover {
+  background-color: rgb(11, 161, 11);
+}

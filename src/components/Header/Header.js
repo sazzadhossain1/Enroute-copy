@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
-      <div className="navbar bg-base-100">
+    <div className="header-parent-div">
+      <div className="navbar ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -49,11 +50,13 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <Link to="/home" className="enroute">
+            enr<span className="o">o</span>ute
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li>
+            <li className="home">
               <Link to="/home">Home</Link>
             </li>
             <li tabIndex={0}>
@@ -78,7 +81,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="header-free-btn">FREE CONSULTATION</a>
         </div>
       </div>
     </div>

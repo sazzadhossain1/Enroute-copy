@@ -1,0 +1,27 @@
+.header-parent-div {
+  background-color: black;
+  color: white;
+}
+
+.home {
+  background-color: green;
+  border-radius: 5px;
+}
+
+.enroute {
+  font-size: 25px;
+  color: green;
+  font-weight: 600;
+  margin-left: 50px;
+}
+.o {
+  color: orangered;
+  font-size: 40px;
+}
+.header-free-btn {
+  background-color: green;
+  padding: 10px;
+  font-weight: 500;
+  margin-right: 50px;
+  border-radius: 5px;
+}
