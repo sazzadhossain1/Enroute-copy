@@ -26,7 +26,7 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="bgc menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52"
             >
               <li>
                 <Link to="/home">Home</Link>
@@ -51,7 +51,7 @@ const Header = () => {
             </ul>
           </div>
           <Link to="/home" className="enroute">
-            enr<span className="o">o</span>ute
+            enr<span className="o">o</span>ute copy
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">

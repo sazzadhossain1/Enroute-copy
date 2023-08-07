@@ -40,3 +40,59 @@
 .banner-get-start-btn:hover {
   background-color: rgb(11, 161, 11);
 }
+
+/* Responsive section start */
+
+@media screen and (max-width: 900px) {
+  .banner-p-text-parent-div {
+    margin-bottom: 0px;
+  }
+  .banner-specialized {
+    font-size: 30px;
+  }
+  .banner-p-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .banner-get-start-btn {
+    font-size: 12px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner-p-text-parent-div {
+    font-size: 15px;
+  }
+  .banner-specialized {
+    font-size: 20px;
+  }
+  .banner-p-text {
+    font-size: 12px;
+  }
+  .banner-get-start-btn {
+    width: 80px;
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .banner-p-text {
+    font-size: 8px;
+  }
+  .banner-blank-div {
+    width: 30px;
+  }
+  .banner-specialized {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .carousel {
+    height: 50vh;
+  }
+
+  .banner-get-start-btn {
+    margin-top: 10px;
+  }
+}
