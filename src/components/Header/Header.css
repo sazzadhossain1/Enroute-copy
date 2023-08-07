@@ -28,3 +28,32 @@
   margin-right: 50px;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 500px) {
+  .enroute {
+    font-size: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .o {
+    font-size: 30px;
+  }
+  .header-free-btn {
+    font-size: 10px;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .enroute {
+    font-size: 15px;
+  }
+  .o {
+    font-size: 25px;
+  }
+  .header-free-btn {
+    font-size: 10px;
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+}
