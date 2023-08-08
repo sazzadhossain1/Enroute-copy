@@ -1,0 +1,34 @@
+.managedService-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+.managedService-text-div {
+  margin-top: 250px;
+  text-align: left;
+  background-color: rgb(235, 245, 211);
+  padding: 50px;
+}
+.child-div {
+  width: 75%;
+  margin-left: auto;
+  margin-top: 100px;
+}
+.managed-flex-div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.heading-manageService {
+  font-size: 40px;
+  color: green;
+  font-weight: 700;
+}
+.managedService-img-div {
+  background-color: rgb(235, 245, 211);
+  margin-top: 250px;
+}
+.managedService-img-div img {
+  width: 100%;
+  border-radius: 0px 0px 0px 100%;
+}

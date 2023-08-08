@@ -14,10 +14,16 @@ function App() {
       children: [
         {
           path: "/",
+          loader: async () => {
+            return fetch("homeApi.json");
+          },
           element: <Home></Home>,
         },
         {
           path: "/home",
+          loader: async () => {
+            return fetch("homeApi.json");
+          },
           element: <Home></Home>,
         },
         {

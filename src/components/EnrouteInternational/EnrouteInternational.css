@@ -1,0 +1,48 @@
+.enrouteInternational-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  width: 65%;
+  margin: auto;
+}
+.enroute-text-div {
+  margin: auto;
+  text-align: left;
+  width: 100%;
+}
+.enoute-flex-div {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  gap: 20px;
+}
+.enroute-blank-div {
+  height: 3px;
+  width: 50px;
+  background-color: red;
+}
+
+.enroute-heading {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.enroute-color {
+  color: red;
+  font-weight: 700;
+}
+.enroute-p-one {
+  margin-bottom: 15px;
+}
+.enroute-p-two {
+  margin-bottom: 15px;
+}
+.enroute-p-three {
+  margin-bottom: 15px;
+}
+.enroute-img-div {
+  margin: auto;
+}
+.enroute-img {
+  height: 550px;
+}
