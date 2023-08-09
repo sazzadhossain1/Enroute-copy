@@ -5,10 +5,12 @@ import EnrouteInternational from "../EnrouteInternational/EnrouteInternational";
 import { useLoaderData } from "react-router-dom";
 import ManagedService from "../ManagedService/ManagedService";
 import Recruitment from "../Recruitment/Recruitment";
+import ExecutiveEducation from "../ExecutiveEducation/ExecutiveEducation";
+import SuccessStories from "../SuccessStories/SuccessStories";
 
 const Home = () => {
   const getApis = useLoaderData();
-  // console.log(getApis);
+  console.log(getApis);
   return (
     <div>
       <Banner></Banner>
@@ -23,6 +25,13 @@ const Home = () => {
           <Recruitment sp={sp} key={sp._id}></Recruitment>
         ))}
       </div>
+
+      <div>
+        {getApis[0].thirdPart.map((tp) => (
+          <ExecutiveEducation tp={tp} key={tp._id}></ExecutiveEducation>
+        ))}
+      </div>
+      <SuccessStories></SuccessStories>
     </div>
   );
 };

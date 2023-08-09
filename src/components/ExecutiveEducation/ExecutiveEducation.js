@@ -1,19 +1,13 @@
 import React from "react";
-import "./Recruitment.css";
 import { Link } from "react-router-dom";
 
-const Recruitment = ({ sp }) => {
-  //   console.log(sp);
-  const { img, pOne, pHeading, heading, btnTwo, btnThree, btnOne, btnFour } =
-    sp;
+const ExecutiveEducation = ({ tp }) => {
+  console.log(tp);
 
-  //   console.log(img);
-
+  const { img, pHeading, heading, pOne, btnOne, btnTwo, btnThree, btnFour } =
+    tp;
   return (
     <div className="managedService-grid-div">
-      <div className="managedService-img-div">
-        <img src={img} alt="" />
-      </div>
       <div className="managedService-text-div">
         <div className="child-div">
           <div className="managed-flex-div">
@@ -64,8 +58,11 @@ const Recruitment = ({ sp }) => {
           </div>
         </div>
       </div>
+      <div className="managedService-img-div">
+        <img src={img} alt="" />
+      </div>
     </div>
   );
 };
 
-export default Recruitment;
+export default ExecutiveEducation;

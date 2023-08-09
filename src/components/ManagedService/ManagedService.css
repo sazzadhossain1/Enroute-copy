@@ -4,7 +4,7 @@
   margin: auto;
 }
 .managedService-text-div {
-  margin-top: 250px;
+  margin-top: 150px;
   text-align: left;
   background-color: rgb(233, 255, 233);
   padding: 50px;
@@ -26,7 +26,7 @@
 }
 .managedService-img-div {
   background-color: rgb(233, 255, 233);
-  margin-top: 250px;
+  margin-top: 150px;
 }
 .managedService-img-div img {
   width: 100%;

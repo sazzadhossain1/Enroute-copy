@@ -22,7 +22,35 @@
         "btnTwo": "Facility Management",
         "btnThree": "Enroute Paysolutions",
         "btnFour": "Events & Activation",
-        "img": "https://epe.brightspotcdn.com/dims4/default/3eb048d/2147483647/strip/true/crop/516x350+43+0/resize/840x570!/format/webp/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.amazonaws.com%2F06%2F26%2F16007afbd1a8b2f73363e9627c4b%2Ftsj-article-recruitment-img-img.png"
+        "img": "https://teach-now.co.uk/wp-content/uploads/2022/12/roles.png"
+      }
+    ],
+    "thirdPart": [
+      {
+        "_id": 3,
+        "pHeading": "Expert In Business Process",
+        "heading": "MANAGED SERVICE",
+        "pOne": "Enroute International Limited is one of the reputed business process outsourcing company in Bangladesh operating over a decade and counting. With undeniable success in the local industry the roots of the company goes deep into company client relationships. We offer a long term partnership which ensures the opportunities for our clients and gives them a competitive edge over rivals through adept outsourcing options",
+
+        "btnOne": "People Outsourcing",
+        "btnTwo": "Facility Management",
+        "btnThree": "Enroute Paysolutions",
+        "btnFour": "Events & Activation",
+        "img": "https://www.edhec.edu/sites/default/files/2022-06/EMBA%20HIT_0.jpg"
+      }
+    ],
+    "forthPart": [
+      {
+        "_id": 4,
+        "pHeading": "Expert In Business Process",
+        "heading": "MANAGED SERVICE",
+        "pOne": "Enroute International Limited is one of the reputed business process outsourcing company in Bangladesh operating over a decade and counting. With undeniable success in the local industry the roots of the company goes deep into company client relationships. We offer a long term partnership which ensures the opportunities for our clients and gives them a competitive edge over rivals through adept outsourcing options",
+
+        "btnOne": "People Outsourcing",
+        "btnTwo": "Facility Management",
+        "btnThree": "Enroute Paysolutions",
+        "btnFour": "Events & Activation",
+        "img": "https://www.edhec.edu/sites/default/files/2022-06/EMBA%20HIT_0.jpg"
       }
     ]
   }
