@@ -6,7 +6,7 @@
 .managedService-text-div {
   margin-top: 250px;
   text-align: left;
-  background-color: rgb(235, 245, 211);
+  background-color: rgb(233, 255, 233);
   padding: 50px;
 }
 .child-div {
@@ -25,10 +25,35 @@
   font-weight: 700;
 }
 .managedService-img-div {
-  background-color: rgb(235, 245, 211);
+  background-color: rgb(233, 255, 233);
   margin-top: 250px;
 }
 .managedService-img-div img {
   width: 100%;
   border-radius: 0px 0px 0px 100%;
+}
+.flex-btn-div {
+  display: flex;
+  align-items: center;
+}
+.all-btn-div {
+  margin: 10px;
+}
+
+.btn-all {
+  border: 1px solid rgb(161, 161, 160);
+
+  width: 200px;
+  padding: 5px;
+  box-shadow: 1px 1px 3px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.managedService-logo {
+  width: 25px;
+  margin-right: 10px;
+  border-radius: 50%;
 }

@@ -16,21 +16,46 @@ const ManagedService = ({ getApi }) => {
           </div>
           <h1 className="heading-manageService">{heading}</h1>
           <p>{pOne}</p>
-          <button>
-            <Link>{btnOne}</Link>
-          </button>
+          <div className="flex-btn-div">
+            <div className="all-btn-div">
+              <button className="btn-all">
+                <img
+                  className="managedService-logo"
+                  src="https://www.clipartkey.com/mpngs/m/22-223544_group-of-people-clipart-png-download-green-people.png"
+                  alt=""
+                />
+                <Link>{btnOne}</Link>
+              </button>
 
-          <button>
-            <Link>{btnTwo}</Link>
-          </button>
-
-          <button>
-            <Link>{btnThree}</Link>
-          </button>
-
-          <button>
-            <Link>{btnFour}</Link>
-          </button>
+              <button className="btn-all">
+                <img
+                  className="managedService-logo"
+                  src="https://w7.pngwing.com/pngs/341/591/png-transparent-green-color-brush-color-watercolor-painting-green-hand-painted-graffiti-ink-leaf-simple-thumbnail.png"
+                  alt=""
+                />
+                <Link>{btnTwo}</Link>
+              </button>
+            </div>
+            <div className="all-btn-div">
+              {" "}
+              <button className="btn-all">
+                <img
+                  className="managedService-logo"
+                  src="https://w7.pngwing.com/pngs/337/803/png-transparent-green-liquid-fried-plantain-green-painting-color-color-splash-leaf-vegetable-white-food-thumbnail.png"
+                  alt=""
+                />
+                <Link>{btnThree}</Link>
+              </button>
+              <button className="btn-all">
+                <img
+                  className="managedService-logo"
+                  src="https://w7.pngwing.com/pngs/283/605/png-transparent-butterfly-green-color-butterfly-brush-footed-butterfly-symmetry-insects-thumbnail.png"
+                  alt=""
+                />
+                <Link>{btnFour}</Link>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       <div className="managedService-img-div">
