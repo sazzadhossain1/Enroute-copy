@@ -1,7 +1,7 @@
 .enrouteInternational-grid-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
+  gap: 20px;
   width: 65%;
   margin: auto;
 }
@@ -45,4 +45,23 @@
 }
 .enroute-img {
   height: 550px;
+}
+
+@media screen and (max-width: 1300px) {
+  .enrouteInternational-grid-div {
+    width: 90%;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .enrouteInternational-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
+  .enroute-img-div {
+    width: 100%;
+  }
+  .enroute-img {
+    width: 100%;
+  }
 }
