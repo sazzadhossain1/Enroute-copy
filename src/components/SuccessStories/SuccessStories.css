@@ -1,11 +1,35 @@
 .successStories-parent-div {
   background: rgba(0, 0, 0, 0.7)
     url(https://enroute.com.bd/wp-content/uploads/2022/03/valuable-clients-bg.jpg?id=791);
-  margin-top: 100px;
+  margin-top: 250px;
 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
   background-blend-mode: darken;
+  padding: 10px;
+}
+
+.success-flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+.success-blank-div {
+  background-color: red;
+  height: 2px;
+  width: 75px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.p {
+  color: white;
+}
+.success-heading {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 20px;
 }

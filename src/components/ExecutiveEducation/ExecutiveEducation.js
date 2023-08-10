@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ExecutiveEducation = ({ tp }) => {
-  console.log(tp);
+  // console.log(tp);
 
   const { img, pHeading, heading, pOne, btnOne, btnTwo, btnThree, btnFour } =
     tp;

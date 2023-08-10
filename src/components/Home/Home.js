@@ -7,6 +7,7 @@ import ManagedService from "../ManagedService/ManagedService";
 import Recruitment from "../Recruitment/Recruitment";
 import ExecutiveEducation from "../ExecutiveEducation/ExecutiveEducation";
 import SuccessStories from "../SuccessStories/SuccessStories";
+import OurSuccessNumber from "../OurSuccessNumber/OurSuccessNumber";
 
 const Home = () => {
   const getApis = useLoaderData();
@@ -31,7 +32,24 @@ const Home = () => {
           <ExecutiveEducation tp={tp} key={tp._id}></ExecutiveEducation>
         ))}
       </div>
-      <SuccessStories></SuccessStories>
+      <OurSuccessNumber></OurSuccessNumber>
+
+      <div className="successStories-parent-div">
+        <div className="success-flex-div">
+          <div className="success-blank-div"></div>
+          <p className="p">Some of out inspiring</p>
+          <div className="success-blank-div"></div>
+        </div>
+        <h2 className="success-heading">Success Stories</h2>
+        <div>
+          {getApis[0].successCart.map((singleCart) => (
+            <SuccessStories
+              singleCart={singleCart}
+              key={singleCart.id}
+            ></SuccessStories>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

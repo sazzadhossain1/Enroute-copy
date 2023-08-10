@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const ManagedService = ({ getApi }) => {
   const { pHeading, pOne, img, heading, btnOne, btnTwo, btnThree, btnFour } =
     getApi;
-  console.log(pHeading);
+  // console.log(pHeading);
   return (
     <div className="managedService-grid-div">
       <div className="managedService-text-div">

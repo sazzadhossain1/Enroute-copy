@@ -52,6 +52,23 @@
         "btnFour": "Events & Activation",
         "img": "https://www.edhec.edu/sites/default/files/2022-06/EMBA%20HIT_0.jpg"
       }
+    ],
+    "successCart": [
+      {
+        "id": 1,
+        "img": "https://enroute.com.bd/wp-content/uploads/2022/05/nccbl-story-thumb.jpg",
+        "heading": "Bridging Potential and Opportunity: MTO..."
+      },
+      {
+        "id": 2,
+        "img": "https://enroute.com.bd/wp-content/uploads/2022/05/petromax-story-thumb.jpg",
+        "heading": "From Vision to Reality: A Remarkable Journe..."
+      },
+      {
+        "id": 3,
+        "img": "https://enroute.com.bd/wp-content/uploads/2022/12/GA_thumb.png",
+        "heading": "Back to the Roots I GamesHour Corporate..."
+      }
     ]
   }
 ]
