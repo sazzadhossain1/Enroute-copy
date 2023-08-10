@@ -38,10 +38,11 @@ const Home = () => {
         <div className="success-flex-div">
           <div className="success-blank-div"></div>
           <p className="p">Some of out inspiring</p>
+
           <div className="success-blank-div"></div>
         </div>
         <h2 className="success-heading">Success Stories</h2>
-        <div>
+        <div className="successStories-grid-div">
           {getApis[0].successCart.map((singleCart) => (
             <SuccessStories
               singleCart={singleCart}
