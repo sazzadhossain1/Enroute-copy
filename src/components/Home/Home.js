@@ -9,7 +9,33 @@ import ExecutiveEducation from "../ExecutiveEducation/ExecutiveEducation";
 import SuccessStories from "../SuccessStories/SuccessStories";
 import OurSuccessNumber from "../OurSuccessNumber/OurSuccessNumber";
 
+//
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+//
+
 const Home = () => {
+  //
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+  //
   const getApis = useLoaderData();
   console.log(getApis);
   return (
@@ -42,13 +68,23 @@ const Home = () => {
           <div className="success-blank-div"></div>
         </div>
         <h2 className="success-heading">Success Stories</h2>
-        <div className="successStories-grid-div">
-          {getApis[0].successCart.map((singleCart) => (
+        <div>
+          {/* className="successStories-grid-div" */}
+          {/* {getApis[0].successCart.map((singleCart) => (
             <SuccessStories
               singleCart={singleCart}
               key={singleCart.id}
             ></SuccessStories>
-          ))}
+          ))} */}
+          <Carousel className="carousel-width" responsive={responsive}>
+            {getApis[0].successCart.map((singleCart) => (
+              <SuccessStories
+                singleCart={singleCart}
+                key={singleCart.id}
+              ></SuccessStories>
+            ))}
+          </Carousel>
+          ;
         </div>
       </div>
     </div>
