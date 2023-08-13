@@ -7,7 +7,7 @@ const SuccessStories = ({ singleCart }) => {
   const { img, heading } = singleCart;
 
   return (
-    <div className="mb-28">
+    <div className=" single-parent-successStories-div">
       <div className="successStories-child-div">
         <img className="img-successStories" src={img} alt="" />
         <div className="text-successStories">
