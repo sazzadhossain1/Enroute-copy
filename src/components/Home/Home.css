@@ -13,19 +13,46 @@
 /* our blog */
 .our-blog-parent-div {
   margin-top: 100px;
+  width: 65%;
+  margin: auto;
 }
 .our-blog-first-grid-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.flex-parent-div {
+  text-align: left;
+}
 .our-flex-div {
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-top: 100px;
+}
+.our-blog {
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(68, 68, 68);
+}
+.our-blog-p {
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+  text-align: left;
+  font-weight: 700;
 }
 .OurBlog-blank-div {
   height: 3px;
   width: 50px;
   background-color: red;
   margin-right: 20px;
+}
+.learn-p {
+  font-weight: 600;
+  color: rgb(68, 68, 68);
+}
+.our-blog-cart-grid-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }

@@ -1,0 +1,23 @@
+.single-cart-ourBlog-div {
+  background-color: white;
+  box-shadow: 20px 10px 10px rgba(206, 199, 199, 0.3);
+}
+.text-ourBlog-div {
+  padding: 10px;
+  text-align: left;
+}
+.text-link {
+  font-size: 12px;
+  color: green;
+}
+.title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.read-btn {
+  font-size: 14px;
+  color: red;
+  font-weight: 500;
+}
