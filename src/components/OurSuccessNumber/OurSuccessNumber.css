@@ -41,3 +41,45 @@
   color: gray;
   font-weight: 700;
 }
+
+@media screen and (max-width: 1450px) {
+  .ourSuccessNumbers {
+    width: 90%;
+    margin-left: 70px;
+  }
+  .text-number-our-div {
+    margin-right: 80px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ourSuccessNumbers {
+    width: 90%;
+    margin-left: 30px;
+  }
+  .grid-parent-ourSuccessNumber-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .text-number-our-div {
+    margin-right: 60px;
+  }
+  .number {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ourSuccessNumbers {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .grid-parent-ourSuccessNumber-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .text-number-our-div {
+    margin-right: 60px;
+  }
+  .number {
+    margin-right: 15px;
+  }
+}
