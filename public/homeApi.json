@@ -89,6 +89,29 @@
         "img": "https://enroute.com.bd/wp-content/uploads/2022/04/stry.jpg",
         "heading": "From Vision to Reality: A Remarkable Journe..."
       }
+    ],
+    "ourBlogs": [
+      {
+        "id": 1,
+        "img": "https://enroute.com.bd/wp-content/uploads/2023/07/Payroll-Mistakes-450x231.jpg",
+        "enoute": "ENROUTE",
+        "comments": "COMMENTS",
+        "title": "Unlock Payroll Success: A Guide to Avoid Top 10 Payroll Mistakes for Your Business"
+      },
+      {
+        "id": 2,
+        "img": "https://enroute.com.bd/wp-content/uploads/2023/05/Supply-Chain-Management-450x231.jpg",
+        "enoute": "ENROUTE",
+        "comments": "COMMENTS",
+        "title": "Outsourcing in Supply Chain Management: Top 8 Reasons to Consider it in 2023"
+      },
+      {
+        "id": 3,
+        "img": "https://enroute.com.bd/wp-content/uploads/2023/05/IT-Outsourcing-450x231.jpg",
+        "enoute": "ENROUTE",
+        "comments": "COMMENTS",
+        "title": "Maximize Your Business Potential with IT Outsourcing Services in Bangladesh"
+      }
     ]
   }
 ]

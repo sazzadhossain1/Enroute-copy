@@ -3,7 +3,7 @@ import "./SuccessStories.css";
 import { Link } from "react-router-dom";
 
 const SuccessStories = ({ singleCart }) => {
-  console.log(singleCart);
+  // console.log(singleCart);
   const { img, heading } = singleCart;
 
   return (

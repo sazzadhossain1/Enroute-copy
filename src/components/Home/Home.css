@@ -9,3 +9,23 @@
   width: 75%;
   margin: auto;
 }
+
+/* our blog */
+.our-blog-parent-div {
+  margin-top: 100px;
+}
+.our-blog-first-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.our-flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.OurBlog-blank-div {
+  height: 3px;
+  width: 50px;
+  background-color: red;
+  margin-right: 20px;
+}

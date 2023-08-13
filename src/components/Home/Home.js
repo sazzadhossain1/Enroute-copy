@@ -12,6 +12,7 @@ import OurSuccessNumber from "../OurSuccessNumber/OurSuccessNumber";
 //
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import OurBlogs from "../OurBlogs/OurBlogs";
 //
 
 const Home = () => {
@@ -85,6 +86,28 @@ const Home = () => {
             ))}
           </Carousel>
           ;
+        </div>
+      </div>
+
+      {/* Our Blog section start */}
+      <div className="our-blog-parent-div">
+        <div className="our-blog-first-grid-div">
+          <div>
+            <div className="our-flex-div">
+              <div className="OurBlog-blank-div"></div>
+              <p>Learn The Latest Thoughts</p>
+            </div>
+            <h2>Our Blog</h2>
+          </div>
+          <p>
+            Latest viewpoints according to the industry & expert opinion for
+            thought leadership to strategic implementation.
+          </p>
+        </div>
+        <div>
+          {getApis[0].ourBlogs.map((ourBlog) => (
+            <OurBlogs ourBlog={ourBlog} key={ourBlog.id}></OurBlogs>
+          ))}
         </div>
       </div>
     </div>
