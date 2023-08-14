@@ -4,8 +4,8 @@ import "./SignUp.css";
 import { AuthContext } from "../../Context/UserContext";
 
 const SignUp = () => {
-  const { user } = useContext(AuthContext);
-  console.log(user);
+  const { createUser } = useContext(AuthContext);
+  console.log(createUser);
 
   const handleSignUp = (e) => {
     e.preventDefault();
@@ -16,6 +16,16 @@ const SignUp = () => {
     const password = form.password.value;
     const confirmPassword = form.confirmPassword.value;
     console.log(name, email, password, confirmPassword);
+
+    // create user //
+    createUser(email, password)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
   return (
     <div className="sign-up-parent-div">
