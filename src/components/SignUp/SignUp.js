@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import "./SignUp.css";
 
 import { AuthContext } from "../../Context/UserContext";
@@ -6,6 +6,8 @@ import { AuthContext } from "../../Context/UserContext";
 const SignUp = () => {
   const { createUser } = useContext(AuthContext);
   console.log(createUser);
+
+  const [success, setSuccess] = useState(false);
 
   const handleSignUp = (e) => {
     e.preventDefault();
@@ -22,9 +24,12 @@ const SignUp = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
+        form.reset();
+        setSuccess(true);
       })
       .catch((error) => {
         console.log(error);
+        setSuccess(false);
       });
   };
   return (
@@ -54,6 +59,7 @@ const SignUp = () => {
               required
             />
           </div>
+          {success && <p className="successUser">User Created Successfully</p>}
           <button className="signUp-btn" type="submit">
             Sign Up
           </button>
