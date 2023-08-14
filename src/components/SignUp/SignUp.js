@@ -20,6 +20,16 @@ const SignUp = () => {
     const confirmPassword = form.confirmPassword.value;
     console.log(name, email, password, confirmPassword);
 
+    // password authentication //
+    if (password.length < 8) {
+      setError("Please input at least 8 characters");
+      return;
+    }
+
+    if (password !== confirmPassword) {
+      setError("Your Password dose's Match");
+      return;
+    }
     // create user //
     createUser(email, password)
       .then((result) => {
