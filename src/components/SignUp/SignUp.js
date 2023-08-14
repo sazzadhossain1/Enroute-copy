@@ -4,8 +4,8 @@ import "./SignUp.css";
 import { AuthContext } from "../../Context/UserContext";
 
 const SignUp = () => {
-  const { createUser } = useContext(AuthContext);
-  console.log(createUser);
+  const { createUser, googleSignIn } = useContext(AuthContext);
+  // console.log(createUser);
 
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
@@ -34,6 +34,21 @@ const SignUp = () => {
         setSuccess(false);
         setError(error.message);
         form.reset();
+      });
+  };
+
+  const handleGoogleSignIn = () => {
+    googleSignIn()
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+        setSuccess(true);
+        setError("");
+      })
+      .catch((error) => {
+        console.log(error);
+        setError(error.message);
+        setSuccess(false);
       });
   };
   return (
@@ -68,14 +83,18 @@ const SignUp = () => {
           <button className="signUp-btn" type="submit">
             Sign Up
           </button>
-          <button className="google-btn" type="submit">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/588px-Google_%22G%22_Logo.svg.png?20230305195327"
-              alt=""
-            />
-            <p> SignIn With Google</p>
-          </button>
         </form>
+        <button
+          onClick={handleGoogleSignIn}
+          className="google-btn"
+          type="submit"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/588px-Google_%22G%22_Logo.svg.png?20230305195327"
+            alt=""
+          />
+          <p> SignIn With Google</p>
+        </button>
       </div>
     </div>
   );
