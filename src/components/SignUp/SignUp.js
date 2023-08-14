@@ -1,28 +1,21 @@
-import app from "../../firebase/firebase.init";
+import { useContext } from "react";
 import "./SignUp.css";
-import { createUserWithEmailAndPassword, getAuth } from "firebase/auth";
 
-const auth = getAuth(app);
+import { AuthContext } from "../../Context/UserContext";
+
 const SignUp = () => {
+  const { user } = useContext(AuthContext);
+  console.log(user);
+
   const handleSignUp = (e) => {
     e.preventDefault();
 
     const form = e.target;
-    const firstName = form.firstName.value;
-    const lastName = form.lastName.value;
+    const name = form.name.value;
     const email = form.email.value;
     const password = form.password.value;
     const confirmPassword = form.confirmPassword.value;
-    console.log(firstName, lastName, email, password, confirmPassword);
-
-    createUserWithEmailAndPassword(auth, email, password)
-      .then((result) => {
-        const user = result.user;
-        console.log(user);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    console.log(name, email, password, confirmPassword);
   };
   return (
     <div className="sign-up-parent-div">
@@ -30,13 +23,10 @@ const SignUp = () => {
         <h2 className="signUp-title">Please Sign Up</h2>
         <form onSubmit={handleSignUp}>
           <div className="form-group">
-            <label htmlFor="firstName">First Name</label>
-            <input type="text" id="firstName" name="firstName" required />
+            <label htmlFor="yourName">Your Name</label>
+            <input type="text" id="yourName" name="name" required />
           </div>
-          <div className="form-group">
-            <label htmlFor="lastName">Last Name</label>
-            <input type="text" id="lastName" name="lastName" required />
-          </div>
+
           <div className="form-group">
             <label htmlFor="email">Email</label>
             <input type="email" id="email" name="email" required />
