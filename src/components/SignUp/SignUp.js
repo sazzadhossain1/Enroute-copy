@@ -8,6 +8,7 @@ const SignUp = () => {
   console.log(createUser);
 
   const [success, setSuccess] = useState(false);
+  const [error, setError] = useState("");
 
   const handleSignUp = (e) => {
     e.preventDefault();
@@ -26,10 +27,13 @@ const SignUp = () => {
         console.log(user);
         form.reset();
         setSuccess(true);
+        setError("");
       })
       .catch((error) => {
         console.log(error);
         setSuccess(false);
+        setError(error.message);
+        form.reset();
       });
   };
   return (
@@ -60,8 +64,16 @@ const SignUp = () => {
             />
           </div>
           {success && <p className="successUser">User Created Successfully</p>}
+          <p className="error">{error}</p>
           <button className="signUp-btn" type="submit">
             Sign Up
+          </button>
+          <button className="google-btn" type="submit">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/588px-Google_%22G%22_Logo.svg.png?20230305195327"
+              alt=""
+            />
+            <p> SignIn With Google</p>
           </button>
         </form>
       </div>
