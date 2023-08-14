@@ -48,6 +48,12 @@ const Header = () => {
               <li>
                 <Link to="/contactUs">Contact Us</Link>
               </li>
+              <li>
+                <Link to="/login">Login</Link>
+              </li>
+              <li>
+                <Link to="/signUp">Sign Up</Link>
+              </li>
             </ul>
           </div>
           <Link to="/home" className="enroute">
