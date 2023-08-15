@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import "./SignUp.css";
 
 import { AuthContext } from "../../Context/UserContext";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   const { createUser, googleSignIn } = useContext(AuthContext);
@@ -90,6 +91,13 @@ const SignUp = () => {
           </div>
           {success && <p className="successUser">User Created Successfully</p>}
           <p className="error">{error}</p>
+
+          <p className="pleaseLoginLink">
+            Already have an account?{" "}
+            <Link className="link" to="/login">
+              Please Login
+            </Link>
+          </p>
           <button className="signUp-btn" type="submit">
             Sign Up
           </button>
