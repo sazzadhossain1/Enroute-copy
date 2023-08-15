@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Context/UserContext";
 
 const Login = () => {
+  const { loginEmailPassword } = useContext(AuthContext);
+  const handleLogin = (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+    const email = form.email.value;
+    const password = form.password.value;
+    console.log(email, password);
+
+    loginEmailPassword(email, password).then((result) => {
+      const user = result.user;
+      console.log(user);
+    });
+  };
   return (
     <div className="sign-up-parent-div">
       <div className="signup-form">
         <h2 className="signUp-title">Please Login</h2>
-        <form>
+        <form onSubmit={handleLogin}>
           <div className="form-group">
             <label htmlFor="email">Email</label>
             <input type="email" id="email" name="email" required />
