@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../../Context/UserContext";
 
 const Login = () => {
-  const { loginEmailPassword } = useContext(AuthContext);
+  const { loginEmailPassword, googleSignIn } = useContext(AuthContext);
 
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
@@ -17,7 +17,24 @@ const Login = () => {
     const password = form.password.value;
     console.log(email, password);
 
+    // User Login //
     loginEmailPassword(email, password)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+        setSuccess(true);
+        setError("");
+      })
+      .catch((error) => {
+        console.log(error);
+        setError(error.message);
+        setSuccess(false);
+      });
+  };
+
+  // SignIn with Google //
+  const handleGoogleSignIn = () => {
+    googleSignIn()
       .then((result) => {
         const user = result.user;
         console.log(user);
@@ -57,7 +74,11 @@ const Login = () => {
             Login
           </button>
         </form>
-        <button className="google-btn" type="submit">
+        <button
+          onClick={handleGoogleSignIn}
+          className="google-btn"
+          type="submit"
+        >
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/588px-Google_%22G%22_Logo.svg.png?20230305195327"
             alt=""
