@@ -1,10 +1,14 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Context/UserContext";
 
 const Login = () => {
   const { loginEmailPassword } = useContext(AuthContext);
+
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState("");
+
   const handleLogin = (e) => {
     e.preventDefault();
 
@@ -13,10 +17,18 @@ const Login = () => {
     const password = form.password.value;
     console.log(email, password);
 
-    loginEmailPassword(email, password).then((result) => {
-      const user = result.user;
-      console.log(user);
-    });
+    loginEmailPassword(email, password)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+        setSuccess(true);
+        setError("");
+      })
+      .catch((error) => {
+        console.log(error);
+        setError(error.message);
+        setSuccess(false);
+      });
   };
   return (
     <div className="sign-up-parent-div">
@@ -32,8 +44,8 @@ const Login = () => {
             <input type="password" id="password" name="password" required />
           </div>
 
-          <p className="successUser">User Created Successfully</p>
-          <p className="error"></p>
+          {success && <p className="successUser">User Login Successfully</p>}
+          <p className="error">{error}</p>
 
           <p className="pleaseLoginLink">
             Are You New To This Site?
