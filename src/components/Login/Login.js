@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import "./Login.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/UserContext";
 
 const Login = () => {
@@ -8,6 +8,10 @@ const Login = () => {
 
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
+
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/home";
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -25,6 +29,12 @@ const Login = () => {
         setSuccess(true);
         setError("");
         form.reset();
+
+        if (user.emailVerified) {
+          navigate(from, { replace: true });
+        } else {
+          alert("Your Email is not Verified.Please Verify you email");
+        }
       })
       .catch((error) => {
         console.log(error);
