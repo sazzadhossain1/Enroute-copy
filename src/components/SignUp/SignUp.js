@@ -5,7 +5,8 @@ import { AuthContext } from "../../Context/UserContext";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
-  const { createUser, googleSignIn } = useContext(AuthContext);
+  const { createUser, googleSignIn, verifyEmail, updateUserProfile } =
+    useContext(AuthContext);
   // console.log(createUser);
 
   const [success, setSuccess] = useState(false);
@@ -39,6 +40,8 @@ const SignUp = () => {
         form.reset();
         setSuccess(true);
         setError("");
+        handleEmailVerification();
+        handleUpdateUserProfile(name);
       })
       .catch((error) => {
         console.log(error);
@@ -60,6 +63,32 @@ const SignUp = () => {
         console.log(error);
         setError(error.message);
         setSuccess(false);
+      });
+  };
+
+  // send email verification function //
+  const handleEmailVerification = () => {
+    verifyEmail()
+      .then(() => {
+        console.log("email send");
+        alert("Please verify your email");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  // get user name function, update user display  name in the ui nav bar //
+  const handleUpdateUserProfile = (name) => {
+    const profile = {
+      displayName: name,
+    };
+    updateUserProfile(profile)
+      .then(() => {
+        console.log("get the user name");
+      })
+      .catch((error) => {
+        console.log(error);
       });
   };
   return (

@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import { AuthContext } from "../../Context/UserContext";
 
 const Header = () => {
+  const { user, logOut } = useContext(AuthContext);
+  console.log(user);
+
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {
+        console.log("LogOut successfully");
+      })
+      .catch((error) => console.log(error));
+  };
   return (
     <div className="header-parent-div">
       <div className="navbar ">
@@ -48,12 +59,20 @@ const Header = () => {
               <li>
                 <Link to="/contactUs">Contact Us</Link>
               </li>
-              <li>
-                <Link to="/login">Login</Link>
-              </li>
-              <li>
-                <Link to="/signUp">Sign Up</Link>
-              </li>
+              {user?.uid ? (
+                <li>
+                  <button onClick={handleLogOut}>LogOut</button>
+                </li>
+              ) : (
+                <>
+                  <li>
+                    <Link to="/login">Login</Link>
+                  </li>
+                  <li>
+                    <Link to="/signUp">Sign Up</Link>
+                  </li>
+                </>
+              )}
             </ul>
           </div>
           <Link to="/home" className="enroute">
@@ -84,16 +103,26 @@ const Header = () => {
             <li>
               <Link to="/contactUs">Contact Us</Link>
             </li>
-            <li>
-              <Link to="/login">Login</Link>
-            </li>
-            <li>
-              <Link to="/signUp">Sign Up</Link>
-            </li>
+
+            {user?.uid ? (
+              <li>
+                <button onClick={handleLogOut}>LogOut</button>
+              </li>
+            ) : (
+              <>
+                <li>
+                  <Link to="/login">Login</Link>
+                </li>
+                <li>
+                  <Link to="/signUp">Sign Up</Link>
+                </li>
+              </>
+            )}
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="header-free-btn">FREE CONSULTATION</a>
+          <h1 className="mr-5">{user?.displayName}</h1>
+          <Link className="header-free-btn">FREE CONSULTATION</Link>
         </div>
       </div>
     </div>
