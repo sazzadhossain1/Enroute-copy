@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./OurBlogs.css";
 
 const OurBlogs = ({ ourBlog }) => {
-  console.log(ourBlog);
+  // console.log(ourBlog);
   const { comments, enoute, img, title } = ourBlog;
   return (
     <div className="single-cart-ourBlog-div">

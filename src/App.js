@@ -17,14 +17,14 @@ function App() {
         {
           path: "/",
           loader: async () => {
-            return fetch("homeApi.json");
+            return fetch("http://localhost:5000/allApis");
           },
           element: <Home></Home>,
         },
         {
           path: "/home",
           loader: async () => {
-            return fetch("homeApi.json");
+            return fetch("http://localhost:5000/allApis");
           },
           element: <Home></Home>,
         },

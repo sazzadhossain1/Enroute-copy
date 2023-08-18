@@ -21,7 +21,7 @@ const ExecutiveEducation = ({ tp }) => {
               <button className="btn-all">
                 <img
                   className="managedService-logo"
-                  src="https://www.clipartkey.com/mpngs/m/22-223544_group-of-people-clipart-png-download-green-people.png"
+                  src="https://www.vhv.rs/dpng/d/416-4162657_people-icon-green-hd-png-download.png"
                   alt=""
                 />
                 <Link>{btnOne}</Link>
