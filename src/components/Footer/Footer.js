@@ -5,78 +5,97 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer-parent-div">
-      <div>
-        <div>
+      <div className="footer-grid-div">
+        <div className="whth-over-img-text-div">
           <img
             src="https://enroute.com.bd/wp-content/uploads/2022/02/footer_logo.png"
             alt=""
           />
-          <p>
+          <p className="text-common-color with-over ">
             With over 15 years of pioneering change Enroute is the name and
             brand you can trust for your next growth partnership
           </p>
         </div>
-        <div>
-          <h3>Contact Us</h3>
-          <div></div>
-          <div>
+        <div className="contact-parent-footer-div">
+          <h3 className="text-common-color text-common-siz">Contact Us</h3>
+          <div className="blank-footer-div"></div>
+          <div className="footer-flex-div">
             <img
               src="https://enroute.com.bd/wp-content/uploads/2022/02/location-icon.png"
               alt=""
             />
-            <p>
+            <p className="text-common-color">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum,
               excepturi eveniet?
             </p>
           </div>
-          <div>
+          <div className="footer-flex-div">
             <img
               src="https://enroute.com.bd/wp-content/uploads/2022/02/phone-icon.png"
               alt=""
             />
             <div>
-              <p>+8801735440814</p>
-              <p>+8801915686124</p>
+              <p className="text-common-color">+88 01735440814</p>
+              <p className="text-common-color">+88 01915686124</p>
             </div>
           </div>
-          <div>
+          <div className="footer-flex-div">
             <img
               src="https://enroute.com.bd/wp-content/uploads/2022/02/massage-icon.png"
               alt=""
             />
-            <p>sazzadtomal1@gmail.com</p>
+            <p className="text-common-color">sazzadtomal1@gmail.com</p>
           </div>
         </div>
-        <div>
-          <h3>Links</h3>
-          <div></div>
-          <Link>About Us</Link>
-          <Link>Blog</Link>
-          <Link>HRMS</Link>
-          <Link>Hot Jobs</Link>
+        <div className="link-parent-div">
+          <h3 className="text-common-color text-common-siz">Links</h3>
+          <div className="blank-footer-div"></div>
+          <div className="link-children-div">
+            <Link className="text-common-color ">About Us</Link>
+            <br />
+            <Link className="text-common-color">Blog</Link>
+            <br />
+            <Link className="text-common-color">HRMS</Link>
+            <br />
+            <Link className="text-common-color">Hot Jobs</Link>
+          </div>
         </div>
-        <div>
-          <h3>Newsletter</h3>
-          <div></div>
-          <input type="email" placeholder="Email" />
-          <button>SUBSCRIBE</button>
-          <div>
-            <img
-              src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo-500x313.png"
-              alt=""
-            />
-            <img
-              src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png"
-              alt=""
-            />
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/48/48968.png"
-              alt=""
-            />
-            <img
-              src="https://thumbs.dreamstime.com/b/linkedin-icon-iphone-realistic-texture-pulse-was-news-aggregation-app-originally-developed-android-ios-html-browsers-207165281.jpg"
-              alt=""
-            />
+        <div className="footer-parent-media-logo-div">
+          <h3 className="text-common-color text-common-siz">Newsletter</h3>
+          <div className="blank-footer-div"></div>
+          <div className="footer-input-btn-div">
+            <input className="footer-input" type="email" placeholder="Email" />
+            <button className="text-common-color subscribe">SUBSCRIBE</button>
+          </div>
+          <div className="footer-flex-parent-logo-div">
+            <div className="footer-logo-div">
+              <img
+                className="footer-logo"
+                src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo-500x313.png"
+                alt=""
+              />
+            </div>
+            <div className="footer-logo-div">
+              <img
+                className="footer-logo"
+                src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png"
+                alt=""
+              />
+            </div>
+            <div className="footer-logo-div">
+              <img
+                className="footer-logo"
+                src="https://cdn-icons-png.flaticon.com/512/48/48968.png"
+                alt=""
+              />
+            </div>
+            <div className="footer-logo-div">
+              <img
+                className="footer-logo"
+                src="https://thumbs.dreamstime.com/b/linkedin-icon-iphone-realistic-texture-pulse-was-news-aggregation-app-originally-developed-android-ios-html-browsers-207165281.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
