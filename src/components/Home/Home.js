@@ -38,7 +38,7 @@ const Home = () => {
   };
   //
   const getApis = useLoaderData();
-  console.log(getApis);
+  // console.log(getApis);
   return (
     <div>
       <Banner></Banner>

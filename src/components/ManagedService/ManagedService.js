@@ -1,11 +1,21 @@
 import React from "react";
 import "./ManagedService.css";
 import { Link } from "react-router-dom";
+import ManagedButton from "../ManagedButton/ManagedButton";
 
 const ManagedService = ({ getApi }) => {
-  const { pHeading, pOne, img, heading, btnOne, btnTwo, btnThree, btnFour } =
-    getApi;
-  // console.log(pHeading);
+  const {
+    pHeading,
+    pOne,
+    img,
+    heading,
+    btnOne,
+    btnTwo,
+    btnThree,
+    btnFour,
+    button,
+  } = getApi;
+  // console.log(button);
   return (
     <div className="managedService-grid-div">
       <div className="managedService-text-div">
@@ -16,6 +26,7 @@ const ManagedService = ({ getApi }) => {
           </div>
           <h1 className="heading-manageService">{heading}</h1>
           <p>{pOne}</p>
+          {/*  */}
           <div className="flex-btn-div">
             <div className="all-btn-div">
               <button className="btn-all">
@@ -37,7 +48,6 @@ const ManagedService = ({ getApi }) => {
               </button>
             </div>
             <div className="all-btn-div">
-              {" "}
               <button className="btn-all">
                 <img
                   className="managedService-logo"
@@ -55,6 +65,13 @@ const ManagedService = ({ getApi }) => {
                 <Link>{btnFour}</Link>
               </button>
             </div>
+          </div>
+          {/*  */}
+
+          <div>
+            {button.map((btn) => (
+              <ManagedButton btn={btn} key={btn.id}></ManagedButton>
+            ))}
           </div>
         </div>
       </div>

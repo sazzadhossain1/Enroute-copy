@@ -1,7 +1,7 @@
 .sign-up-parent-div {
   background-color: rgb(80, 110, 80);
-
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .signup-form {
