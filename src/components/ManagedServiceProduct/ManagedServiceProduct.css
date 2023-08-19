@@ -1,7 +1,46 @@
+.common-color-red {
+  color: red;
+}
+
 .manageServiceProduct-grid-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 75%;
+  width: 70%;
   margin: auto;
   align-items: center;
+  margin-top: 150px;
+}
+.img-manageServiceProduct {
+}
+.manageServiceProduct-text-div {
+  text-align: left;
+}
+.manageServiceProduct-flex-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.blank-manageServiceProduct-div {
+  width: 50px;
+  height: 3px;
+  background-color: red;
+}
+.p-title {
+  font-weight: 500;
+  font-size: 14px;
+}
+.first-heading-manageServiceProduct {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.pFirst {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: rgb(82, 80, 80);
+}
+.pSecond {
+  margin-top: 50px;
+  font-weight: 500;
+  color: rgb(82, 80, 80);
 }

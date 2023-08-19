@@ -17,19 +17,20 @@ const ManagedServiceProduct = () => {
   return (
     <div className="manageServiceProduct-grid-div">
       <div>
-        <img src={img} alt="" />
+        <img className="img-manageServiceProduct" src={img} alt="" />
       </div>
-      <div>
-        <div>
-          <div></div>
-          <p>{pTitleById}</p>
+      <div className="manageServiceProduct-text-div">
+        <div className="manageServiceProduct-flex-div">
+          <div className="blank-manageServiceProduct-div"></div>
+          <p className="p-title">{pTitleById}</p>
         </div>
-        <h2>
-          <span>{headingOne}</span> <span>{headingTwo}</span>{" "}
+        <h2 className="first-heading-manageServiceProduct">
+          <span>{headingOne}</span>{" "}
+          <span className="common-color-red">{headingTwo}</span>{" "}
           <span>{headingThree}</span>
         </h2>
-        <p>{pFirst}</p>
-        <p>{pSecond}</p>
+        <p className="pFirst">{pFirst}</p>
+        <p className="pSecond">{pSecond}</p>
       </div>
     </div>
   );
