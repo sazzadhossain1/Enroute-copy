@@ -17,7 +17,7 @@ const ManagedServiceProduct = () => {
   } = getManageServiceProductApi;
   console.log(img);
   return (
-    <div>
+    <div className="manageServiceProduct-parent-div">
       <div className="manageServiceProduct-grid-div">
         <div>
           <img className="img-manageServiceProduct" src={img} alt="" />
@@ -36,7 +36,7 @@ const ManagedServiceProduct = () => {
           <p className="pSecond">{pSecond}</p>
         </div>
       </div>
-      <div>
+      <div className="parent-map-div">
         {buttonData.map((btnData) => (
           <ManagedButtonData
             btnData={btnData}

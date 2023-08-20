@@ -1,7 +1,29 @@
+.parent-managedButtonData-div {
+  margin-top: 100px;
+}
 .content-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  background-color: white;
+  height: 550px;
 }
 .imgById {
   width: 600px;
+  height: 550px;
+}
+.text-managedButtonData {
+  text-align: left;
+}
+.btnData-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(61, 59, 59);
+  margin-bottom: 50px;
+}
+.btnData-paragraph {
+  font-weight: 500;
+  width: 95%;
 }

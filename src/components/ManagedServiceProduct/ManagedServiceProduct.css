@@ -2,6 +2,8 @@
   color: red;
 }
 
+.manageServiceProduct-parent-div {
+}
 .manageServiceProduct-grid-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -9,6 +11,7 @@
   margin: auto;
   align-items: center;
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 .img-manageServiceProduct {
 }
@@ -43,4 +46,8 @@
   margin-top: 50px;
   font-weight: 500;
   color: rgb(82, 80, 80);
+}
+.parent-map-div {
+  background-color: rgb(241, 244, 247);
+  padding: 30px;
 }
