@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const ManagedButton = ({ btn }) => {
   //   console.log(btn);
   const { buttonOne, buttonTwo, buttonThree, buttonFour, id, logo } = btn;
-  console.log(logo);
+  // console.log(logo);
   return (
     <div>
       <div className="btn-all">
