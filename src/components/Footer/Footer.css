@@ -87,3 +87,40 @@
 .footer-logo {
   border-radius: 50%;
 }
+
+@media screen and (max-width: 1600px) {
+  .footer-grid-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer-flex-parent-logo-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-input {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .subscribe {
+    width: 100%;
+    border-radius: 0px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer-input {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .subscribe {
+    width: 100%;
+    border-radius: 0px;
+  }
+}
