@@ -2,10 +2,10 @@ import React from "react";
 import "./ManagedButtonData.css";
 
 const ManagedButtonData = ({ btnData }) => {
-  console.log(btnData);
+  //   console.log(btnData);
   const { imgById, title, btnParagraph, btnParagraphTwo, btnParagraphThree } =
     btnData;
-  console.log(title);
+  //   console.log(title);
   return (
     <div className="parent-managedButtonData-div">
       <div className="content-div">
