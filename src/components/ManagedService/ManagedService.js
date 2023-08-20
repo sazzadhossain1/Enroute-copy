@@ -27,7 +27,7 @@ const ManagedService = ({ getApi }) => {
           <h1 className="heading-manageService">{heading}</h1>
           <p>{pOne}</p>
           {/*  */}
-          <div className="flex-btn-div">
+          {/* <div className="flex-btn-div">
             <div className="all-btn-div">
               <button className="btn-all">
                 <img
@@ -65,10 +65,10 @@ const ManagedService = ({ getApi }) => {
                 <Link>{btnFour}</Link>
               </button>
             </div>
-          </div>
+          </div> */}
           {/*  */}
 
-          <div>
+          <div className="manageService-btn-div flex-btn-div">
             {button.map((btn) => (
               <ManagedButton btn={btn} key={btn.id}></ManagedButton>
             ))}

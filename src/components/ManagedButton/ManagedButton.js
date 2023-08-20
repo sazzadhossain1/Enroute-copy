@@ -4,15 +4,14 @@ import { Link } from "react-router-dom";
 
 const ManagedButton = ({ btn }) => {
   //   console.log(btn);
-  const { buttonOne, buttonTwo, buttonThree, buttonFour, id } = btn;
-  //   console.log(id);
+  const { buttonOne, buttonTwo, buttonThree, buttonFour, id, logo } = btn;
+  console.log(logo);
   return (
     <div>
-      <div>
+      <div className="btn-all">
+        <img className="managedService-logo" src={logo} alt="" />
         <Link to={`/manageServiceProduct/${id}`}>{buttonOne}</Link>
         <Link to={`/manageServiceProduct/${id}`}>{buttonTwo}</Link>
-      </div>
-      <div>
         <Link to={`/manageServiceProduct/${id}`}>{buttonThree}</Link>
         <Link to={`/manageServiceProduct/${id}`}>{buttonFour}</Link>
       </div>
