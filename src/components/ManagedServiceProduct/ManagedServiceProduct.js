@@ -21,13 +21,16 @@ const ManagedServiceProduct = () => {
   return (
     <div>
       <div
+        className="backgroundTitle-parent-div"
         style={{
           backgroundImage: `url(${backgroundImg})`,
           backgroundRepeat: "no-repeat",
-          height: "100vh",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          height: "70vh",
         }}
       >
-        <h3>{backgroundTitle}</h3>
+        <h3 className="backgroundTitle">{backgroundTitle}</h3>
       </div>
       <div className="manageServiceProduct-parent-div">
         <div className="manageServiceProduct-grid-div">

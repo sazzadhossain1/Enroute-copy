@@ -1,7 +1,17 @@
 .common-color-red {
   color: red;
 }
-
+.backgroundTitle-parent-div {
+  position: relative;
+}
+.backgroundTitle {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 750px;
+}
 .manageServiceProduct-parent-div {
 }
 .manageServiceProduct-grid-div {
