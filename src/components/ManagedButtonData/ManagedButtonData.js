@@ -9,7 +9,9 @@ const ManagedButtonData = ({ btnData }) => {
   return (
     <div className="parent-managedButtonData-div">
       <div className="content-div">
-        <img className="imgById" src={imgById} alt="" />
+        <div>
+          <img className="imgById" src={imgById} alt="" />
+        </div>
         <div className="text-managedButtonData">
           <h2 className="btnData-title">{title}</h2>
           <p className="btnData-paragraph">{btnParagraph}</p>

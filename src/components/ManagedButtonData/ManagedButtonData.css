@@ -8,7 +8,8 @@
   width: 75%;
   margin: auto;
   background-color: white;
-  height: 550px;
+
+  gap: 30px;
 }
 .imgById {
   width: 600px;
@@ -26,4 +27,17 @@
 .btnData-paragraph {
   font-weight: 500;
   width: 95%;
+}
+
+@media screen and (max-width: 1550px) {
+  .content-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .imgById {
+    width: 100%;
+  }
+  .text-managedButtonData {
+    padding: 20px;
+  }
 }
