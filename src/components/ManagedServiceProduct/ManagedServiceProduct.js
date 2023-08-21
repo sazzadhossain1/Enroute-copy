@@ -16,8 +16,12 @@ const ManagedServiceProduct = () => {
     buttonData,
     backgroundImg,
     backgroundTitle,
+    secondPartTitle,
+    secondPartHeadingOne,
+    secondPartHeadingTwo,
+    secondPartParagraph,
   } = getManageServiceProductApi;
-  console.log(backgroundImg, backgroundTitle);
+  // console.log(secondPartTitle);
   return (
     <div>
       <div
@@ -51,7 +55,25 @@ const ManagedServiceProduct = () => {
             <p className="pSecond">{pSecond}</p>
           </div>
         </div>
+
         <div className="parent-map-div">
+          {/*  */}
+          <div className="second-part-parent-grid-div">
+            <div>
+              <div className="second-part-flex-div">
+                <div className="second-part-blank-div"></div>
+                <p className="secondPartTitle">{secondPartTitle}</p>
+              </div>
+              <h4 className="secondPartHeading-flex">
+                <p className="secondPartHeadingOne">{secondPartHeadingOne}</p>
+                <p className="secondPartHeadingTwo">{secondPartHeadingTwo}</p>
+              </h4>
+            </div>
+            <div>
+              <p className="secondPartParagraph">{secondPartParagraph}</p>
+            </div>
+          </div>
+          {/*  */}
           {buttonData.map((btnData) => (
             <ManagedButtonData
               btnData={btnData}

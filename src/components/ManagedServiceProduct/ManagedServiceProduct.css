@@ -58,11 +58,55 @@
   font-weight: 500;
   color: rgb(82, 80, 80);
 }
+.second-part-parent-grid-div {
+  background-color: rgb(241, 244, 247);
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+.second-part-flex-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.second-part-blank-div {
+  height: 2px;
+  width: 50px;
+  background-color: red;
+}
+.secondPartTitle {
+  font-size: 14px;
+  font-weight: 700;
+}
+.secondPartHeading-flex {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.secondPartHeadingOne {
+  font-size: 30px;
+  font-weight: 800;
+}
+.secondPartHeadingTwo {
+  font-size: 30px;
+  color: red;
+  font-weight: 800;
+}
+.secondPartParagraph {
+  font-size: 14px;
+  font-weight: 400;
+}
 .parent-map-div {
   background-color: rgb(241, 244, 247);
   padding: 30px;
 }
 
+/* responsiveness start */
 @media screen and (max-width: 1450px) {
   .manageServiceProduct-grid-div {
     display: grid;
