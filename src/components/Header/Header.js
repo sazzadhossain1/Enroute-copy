@@ -121,7 +121,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <h1 className="mr-5">{user?.displayName}</h1>
+          <h1 className="mr-5 displayName">{user?.displayName}</h1>
           <Link className="header-free-btn">FREE CONSULTATION</Link>
         </div>
       </div>

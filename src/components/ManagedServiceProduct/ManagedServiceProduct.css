@@ -22,6 +22,7 @@
   align-items: center;
   margin-top: 150px;
   margin-bottom: 100px;
+  gap: 50px;
 }
 .img-manageServiceProduct {
 }
@@ -60,4 +61,76 @@
 .parent-map-div {
   background-color: rgb(241, 244, 247);
   padding: 30px;
+}
+
+@media screen and (max-width: 1450px) {
+  .manageServiceProduct-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 1750px) {
+  .backgroundTitle {
+    margin-left: 700px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .backgroundTitle {
+    margin-left: 670px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .backgroundTitle {
+    margin-left: 600px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .backgroundTitle {
+    margin-left: 550px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .backgroundTitle {
+    margin-left: 480px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .backgroundTitle {
+    margin-left: 400px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .backgroundTitle {
+    margin-left: 350px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .backgroundTitle {
+    margin-left: 280px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .backgroundTitle {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .backgroundTitle {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .backgroundTitle {
+    margin-left: 80px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .backgroundTitle {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .backgroundTitle {
+    margin-left: 10px;
+  }
 }
