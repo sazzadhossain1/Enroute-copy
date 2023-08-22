@@ -2,6 +2,7 @@ import React from "react";
 import { useLoaderData } from "react-router-dom";
 import "./ManagedServiceProduct.css";
 import ManagedButtonData from "../ManagedButtonData/ManagedButtonData";
+import BtnSuccessCart from "../BtnSuccessCart/BtnSuccessCart";
 
 const ManagedServiceProduct = () => {
   const getManageServiceProductApi = useLoaderData();
@@ -20,8 +21,9 @@ const ManagedServiceProduct = () => {
     secondPartHeadingOne,
     secondPartHeadingTwo,
     secondPartParagraph,
+    buttonSuccessCart,
   } = getManageServiceProductApi;
-  // console.log(secondPartTitle);
+  console.log(buttonSuccessCart);
   return (
     <div>
       <div
@@ -81,6 +83,14 @@ const ManagedServiceProduct = () => {
             ></ManagedButtonData>
           ))}
         </div>
+      </div>
+      <div>
+        {buttonSuccessCart.map((btnSuccessCrt) => (
+          <BtnSuccessCart
+            btnSuccessCrt={btnSuccessCrt}
+            key={btnSuccessCrt.id}
+          ></BtnSuccessCart>
+        ))}
       </div>
     </div>
   );
