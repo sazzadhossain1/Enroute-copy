@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import "./ManagedServiceProduct.css";
 import ManagedButtonData from "../ManagedButtonData/ManagedButtonData";
 import BtnSuccessCart from "../BtnSuccessCart/BtnSuccessCart";
+import Carousel from "react-multi-carousel";
 
 const ManagedServiceProduct = () => {
   const getManageServiceProductApi = useLoaderData();
@@ -24,6 +25,28 @@ const ManagedServiceProduct = () => {
     buttonSuccessCart,
   } = getManageServiceProductApi;
   console.log(buttonSuccessCart);
+
+  //
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1430 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1430, min: 954 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 954, min: 0 },
+      items: 1,
+    },
+  };
+  //
   return (
     <div>
       <div
@@ -84,14 +107,19 @@ const ManagedServiceProduct = () => {
           ))}
         </div>
       </div>
+
+      {/* Carousel Section */}
       <div>
-        {buttonSuccessCart.map((btnSuccessCrt) => (
-          <BtnSuccessCart
-            btnSuccessCrt={btnSuccessCrt}
-            key={btnSuccessCrt.id}
-          ></BtnSuccessCart>
-        ))}
+        <Carousel className="carousel-width" responsive={responsive}>
+          {buttonSuccessCart.map((btnSuccessCrt) => (
+            <BtnSuccessCart
+              btnSuccessCrt={btnSuccessCrt}
+              key={btnSuccessCrt.id}
+            ></BtnSuccessCart>
+          ))}
+        </Carousel>
       </div>
+      {/*  */}
     </div>
   );
 };
