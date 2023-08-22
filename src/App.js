@@ -8,6 +8,7 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import Login from "./components/Login/Login";
 import SignUp from "./components/SignUp/SignUp";
 import ManagedServiceProduct from "./components/ManagedServiceProduct/ManagedServiceProduct";
+import RecruitmentButtonDataById from "./components/RecruitmentButtonDataById/RecruitmentButtonDataById";
 
 function App() {
   const router = createBrowserRouter([
@@ -57,6 +58,15 @@ function App() {
             );
           },
           element: <ManagedServiceProduct></ManagedServiceProduct>,
+        },
+        {
+          path: "recruitmentButtonDataBy/:recruitmentButtonDataById",
+          loader: async ({ params }) => {
+            return fetch(
+              `http://localhost:5000/allApisTwo/${params.RecruitmentButtonDataById}`
+            );
+          },
+          element: <RecruitmentButtonDataById></RecruitmentButtonDataById>,
         },
       ],
     },
