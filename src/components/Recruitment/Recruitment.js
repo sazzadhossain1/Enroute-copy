@@ -1,13 +1,23 @@
 import React from "react";
 import "./Recruitment.css";
 import { Link } from "react-router-dom";
+import RecruitmentButton from "../RecruitmentButton/RecruitmentButton";
 
 const Recruitment = ({ sp }) => {
   //   console.log(sp);
-  const { img, pOne, pHeading, heading, btnTwo, btnThree, btnOne, btnFour } =
-    sp;
+  const {
+    img,
+    pOne,
+    pHeading,
+    heading,
+    btnTwo,
+    btnThree,
+    btnOne,
+    btnFour,
+    button,
+  } = sp;
 
-  //   console.log(img);
+  // console.log(button);
 
   return (
     <div className="managedService-grid-div">
@@ -22,7 +32,7 @@ const Recruitment = ({ sp }) => {
           </div>
           <h1 className="heading-manageService">{heading}</h1>
           <p>{pOne}</p>
-          <div className="flex-btn-div">
+          {/* <div className="flex-btn-div">
             <div className="all-btn-div">
               <button className="btn-all">
                 <img
@@ -61,6 +71,11 @@ const Recruitment = ({ sp }) => {
                 <Link>{btnFour}</Link>
               </button>
             </div>
+          </div> */}
+          <div className="manageService-btn-div flex-btn-div">
+            {button.map((btn) => (
+              <RecruitmentButton btn={btn} key={btn.id}></RecruitmentButton>
+            ))}
           </div>
         </div>
       </div>
