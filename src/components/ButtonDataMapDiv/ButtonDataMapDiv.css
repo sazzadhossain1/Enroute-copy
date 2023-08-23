@@ -1,0 +1,24 @@
+.buttonDataMapDiv-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.pHeading-heading-pFirst-container {
+  text-align: left;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: #007c53;
+}
+.tick-mark-logo {
+  width: 20px;
+}
+.ul-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.li-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
