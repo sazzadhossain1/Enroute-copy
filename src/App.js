@@ -63,7 +63,7 @@ function App() {
           path: "recruitmentButtonDataBy/:recruitmentButtonDataById",
           loader: async ({ params }) => {
             return fetch(
-              `http://localhost:5000/allApisTwo/${params.RecruitmentButtonDataById}`
+              `http://localhost:5000/allApisTwo/${params.recruitmentButtonDataById}`
             );
           },
           element: <RecruitmentButtonDataById></RecruitmentButtonDataById>,

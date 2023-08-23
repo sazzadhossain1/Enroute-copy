@@ -3,8 +3,9 @@ import { useLoaderData } from "react-router-dom";
 
 const RecruitmentButtonDataById = () => {
   const getDataById = useLoaderData();
-  console.log(getDataById);
-  return <div>get by id</div>;
+  const { backgroundTitle, backgroundImg } = getDataById;
+  console.log(backgroundTitle);
+  return <div>{backgroundTitle}</div>;
 };
 
 export default RecruitmentButtonDataById;

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const RecruitmentButton = ({ btn }) => {
   //   console.log(btn);
   const { buttonOne, buttonTwo, buttonThree, buttonFour, logo, id } = btn;
-  console.log(id);
+  // console.log(id);
   return (
     <div>
       <div className="btn-all">
