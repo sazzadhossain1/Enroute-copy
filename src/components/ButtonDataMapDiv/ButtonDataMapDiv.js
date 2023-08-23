@@ -27,14 +27,14 @@ const ButtonDataMapDiv = ({ bdtData }) => {
   } = bdtData;
   return (
     <div className="buttonDataMapDiv-grid-div">
-      <div>
+      <div className="buttonDataMapDiv-text-container-div">
         <div className="pHeading-heading-pFirst-container">
           <div className="manageServiceProduct-flex-div">
             <div className="blank-manageServiceProduct-div"></div>
             <p className="p-title">{pHeading}</p>
           </div>
           <h2 className="heading">{heading}</h2>
-          <p>{pFirst}</p>
+          <p className="pFirst">{pFirst}</p>
         </div>
         <div className="ul-grid-div">
           <ul>
@@ -107,7 +107,7 @@ const ButtonDataMapDiv = ({ bdtData }) => {
         </div>
       </div>
       <div>
-        <img src={imgById} alt="" />
+        <img className="img-from-ButtonDataMapDiv" src={imgById} alt="" />
       </div>
     </div>
   );
