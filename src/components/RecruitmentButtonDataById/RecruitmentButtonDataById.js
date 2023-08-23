@@ -5,7 +5,19 @@ const RecruitmentButtonDataById = () => {
   const getDataById = useLoaderData();
   const { backgroundTitle, backgroundImg } = getDataById;
   console.log(backgroundTitle);
-  return <div>{backgroundTitle}</div>;
+  return (
+    <div
+      style={{
+        backgroundImage: `url(${backgroundImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        height: "70vh",
+      }}
+    >
+      {backgroundTitle}
+    </div>
+  );
 };
 
 export default RecruitmentButtonDataById;
