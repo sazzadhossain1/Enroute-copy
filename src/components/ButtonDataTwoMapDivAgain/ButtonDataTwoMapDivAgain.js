@@ -1,9 +1,8 @@
 import React from "react";
-import "./ButtonDataTwoMapDiv.css";
 
-const ButtonDataTwoMapDiv = ({ bdtDataTwo }) => {
-  //   console.log(bdtDataTwo);
-  const { logo, secondPartTitle, secondPartP } = bdtDataTwo;
+const ButtonDataTwoMapDivAgain = ({ dbtDataTwoAgain }) => {
+  console.log(dbtDataTwoAgain);
+  const { logo, secondPartTitle, secondPartP } = dbtDataTwoAgain;
   return (
     <div className="buttonDataTwoMapDiv-flex-div">
       <div>
@@ -17,4 +16,4 @@ const ButtonDataTwoMapDiv = ({ bdtDataTwo }) => {
   );
 };
 
-export default ButtonDataTwoMapDiv;
+export default ButtonDataTwoMapDivAgain;

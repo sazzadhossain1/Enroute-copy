@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import ButtonDataMapDiv from "../ButtonDataMapDiv/ButtonDataMapDiv";
 import ButtonDataTwoMapDiv from "../ButtonDataTwoMapDiv/ButtonDataTwoMapDiv";
 import "./RecruitmentButtonDataById.css";
+import ButtonDataTwoMapDivAgain from "../ButtonDataTwoMapDivAgain/ButtonDataTwoMapDivAgain";
 
 const RecruitmentButtonDataById = () => {
   const getDataById = useLoaderData();
@@ -19,8 +20,9 @@ const RecruitmentButtonDataById = () => {
     img,
     buttonData,
     buttonDataTwo,
+    buttonDataTwoAgain,
   } = getDataById;
-  // console.log(buttonDataTwo);
+  // console.log(buttonDataTwoAgain);
   return (
     <div>
       <div
@@ -69,6 +71,14 @@ const RecruitmentButtonDataById = () => {
               bdtDataTwo={bdtDataTwo}
               key={bdtDataTwo.id}
             ></ButtonDataTwoMapDiv>
+          ))}
+        </div>
+        <div>
+          {buttonDataTwoAgain.map((dbtDataTwoAgain) => (
+            <ButtonDataTwoMapDivAgain
+              dbtDataTwoAgain={dbtDataTwoAgain}
+              key={dbtDataTwoAgain.id}
+            ></ButtonDataTwoMapDivAgain>
           ))}
         </div>
       </div>
