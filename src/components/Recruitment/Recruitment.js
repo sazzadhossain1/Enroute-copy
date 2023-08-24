@@ -10,10 +10,7 @@ const Recruitment = ({ sp }) => {
     pOne,
     pHeading,
     heading,
-    btnTwo,
-    btnThree,
-    btnOne,
-    btnFour,
+
     button,
   } = sp;
 

@@ -1,3 +1,10 @@
+.commonColor {
+  color: red;
+}
+.commonSiz {
+  font-size: 30px;
+  font-weight: 700;
+}
 .buttonDataMapDiv-grid-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -40,4 +47,47 @@
 .img-from-ButtonDataMapDiv {
   width: 100%;
   border-radius: 0px 0px 0px 100%;
+}
+
+/* Second part style start */
+.secondPart-parent-div {
+  margin-top: 100px;
+}
+.secondPart-children-div {
+  background-color: #f6f6f6;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+}
+.secondPart-heading {
+  margin-bottom: 20px;
+}
+.secondPartParagraph {
+  color: gray;
+  font-weight: 500;
+}
+/* Second part style end */
+
+@media screen and (max-width: 1350px) {
+  .buttonDataMapDiv-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  .img-from-ButtonDataMapDiv {
+    border-radius: 0px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .buttonDataMapDiv-text-container-div {
+    width: 100%;
+    text-align: left;
+  }
+  .ul-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 import ButtonDataMapDiv from "../ButtonDataMapDiv/ButtonDataMapDiv";
+import ButtonDataTwoMapDiv from "../ButtonDataTwoMapDiv/ButtonDataTwoMapDiv";
+import "./RecruitmentButtonDataById.css";
 
 const RecruitmentButtonDataById = () => {
   const getDataById = useLoaderData();
@@ -16,8 +18,9 @@ const RecruitmentButtonDataById = () => {
     pThird,
     img,
     buttonData,
+    buttonDataTwo,
   } = getDataById;
-  // console.log(buttonData);
+  // console.log(buttonDataTwo);
   return (
     <div>
       <div
@@ -57,6 +60,17 @@ const RecruitmentButtonDataById = () => {
             key={bdtData.id}
           ></ButtonDataMapDiv>
         ))}
+      </div>
+
+      <div>
+        <div className="buttonDataTwo-map-div">
+          {buttonDataTwo.map((bdtDataTwo) => (
+            <ButtonDataTwoMapDiv
+              bdtDataTwo={bdtDataTwo}
+              key={bdtDataTwo.id}
+            ></ButtonDataTwoMapDiv>
+          ))}
+        </div>
       </div>
     </div>
   );
