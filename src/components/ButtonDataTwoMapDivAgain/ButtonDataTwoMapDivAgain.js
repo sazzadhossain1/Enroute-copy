@@ -6,12 +6,12 @@ const ButtonDataTwoMapDivAgain = ({ dbtDataTwoAgain }) => {
   const { logo, secondPartTitle, secondPartP } = dbtDataTwoAgain;
   return (
     <div className="buttonDataTwoMapDiv-flex-div text-align">
-      <div>
+      <div className="common-logo-div">
         <img className="bdtDataTwoLogo" src={logo} alt="" />
       </div>
       <div>
-        <h3>{secondPartTitle}</h3>
-        <p>{secondPartP}</p>{" "}
+        <h3 className="common-title">{secondPartTitle}</h3>
+        <p className="common-p">{secondPartP}</p>
       </div>
     </div>
   );

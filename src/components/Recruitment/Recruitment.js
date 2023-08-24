@@ -1,6 +1,5 @@
 import React from "react";
 import "./Recruitment.css";
-import { Link } from "react-router-dom";
 import RecruitmentButton from "../RecruitmentButton/RecruitmentButton";
 
 const Recruitment = ({ sp }) => {

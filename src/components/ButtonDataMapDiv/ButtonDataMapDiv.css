@@ -50,17 +50,21 @@
 }
 
 /* Second part style start */
+.buttonDataMapDiv-parent-div {
+}
 .secondPart-parent-div {
   margin-top: 100px;
+  background-color: #f0eded;
+  padding: 20px;
 }
 .secondPart-children-div {
-  background-color: #f6f6f6;
   padding: 20px;
   width: 60%;
   margin: auto;
 }
 .secondPart-heading {
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 .secondPartParagraph {
   color: gray;

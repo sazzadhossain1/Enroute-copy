@@ -10,7 +10,7 @@ const ButtonDataTwoMapDiv = ({ bdtDataTwo }) => {
         <h3 className="common-title">{secondPartTitle}</h3>
         <p className="common-p">{secondPartP}</p>
       </div>
-      <div>
+      <div className="common-logo-div">
         <img className="bdtDataTwoLogo" src={logo} alt="" />
       </div>
     </div>

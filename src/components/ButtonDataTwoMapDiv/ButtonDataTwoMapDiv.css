@@ -4,9 +4,15 @@
 }
 .common-p {
   font-size: 14px;
-  color: rgb(92, 90, 90);
+  color: gray;
   font-weight: 500;
   margin-top: 20px;
+  margin-bottom: 40px;
+}
+.common-logo-div {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
 }
 .buttonDataTwoMapDiv-flex-div {
   display: flex;
@@ -15,8 +21,19 @@
 }
 .align {
   text-align: right;
-  margin-top: 20px;
 }
 .bdtDataTwoLogo {
-  width: 500px;
+  width: 300px;
+}
+
+@media screen and (max-width: 1200px) {
+  .bdtDataTwoLogo {
+    display: none;
+  }
+  .common-logo-div {
+    display: none;
+  }
+  .align {
+    text-align: left;
+  }
 }

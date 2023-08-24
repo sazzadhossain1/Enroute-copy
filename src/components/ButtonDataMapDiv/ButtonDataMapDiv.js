@@ -32,7 +32,7 @@ const ButtonDataMapDiv = ({ bdtData }) => {
   } = bdtData;
 
   return (
-    <div>
+    <div className="buttonDataMapDiv-parent-div">
       <div className="buttonDataMapDiv-grid-div">
         <div className="buttonDataMapDiv-text-container-div">
           <div className="pHeading-heading-pFirst-container">

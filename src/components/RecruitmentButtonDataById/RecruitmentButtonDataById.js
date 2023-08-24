@@ -65,21 +65,23 @@ const RecruitmentButtonDataById = () => {
       </div>
 
       <div className="parent-of-two-map-div">
-        <div className="">
-          {buttonDataTwo.map((bdtDataTwo) => (
-            <ButtonDataTwoMapDiv
-              bdtDataTwo={bdtDataTwo}
-              key={bdtDataTwo.id}
-            ></ButtonDataTwoMapDiv>
-          ))}
-        </div>
-        <div>
-          {buttonDataTwoAgain.map((dbtDataTwoAgain) => (
-            <ButtonDataTwoMapDivAgain
-              dbtDataTwoAgain={dbtDataTwoAgain}
-              key={dbtDataTwoAgain.id}
-            ></ButtonDataTwoMapDivAgain>
-          ))}
+        <div className="children-of-two-map-div">
+          <div className="">
+            {buttonDataTwo.map((bdtDataTwo) => (
+              <ButtonDataTwoMapDiv
+                bdtDataTwo={bdtDataTwo}
+                key={bdtDataTwo.id}
+              ></ButtonDataTwoMapDiv>
+            ))}
+          </div>
+          <div>
+            {buttonDataTwoAgain.map((dbtDataTwoAgain) => (
+              <ButtonDataTwoMapDivAgain
+                dbtDataTwoAgain={dbtDataTwoAgain}
+                key={dbtDataTwoAgain.id}
+              ></ButtonDataTwoMapDivAgain>
+            ))}
+          </div>
         </div>
       </div>
     </div>
