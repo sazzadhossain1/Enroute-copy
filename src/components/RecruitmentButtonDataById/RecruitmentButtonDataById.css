@@ -1,7 +1,8 @@
-.buttonDataTwo-map-div {
+.parent-of-two-map-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  width: 75%;
+  gap: 40px;
+  width: 80%;
   margin: auto;
+  margin-top: 40px;
 }

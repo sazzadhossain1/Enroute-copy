@@ -5,10 +5,10 @@ const ButtonDataTwoMapDiv = ({ bdtDataTwo }) => {
   //   console.log(bdtDataTwo);
   const { logo, secondPartTitle, secondPartP } = bdtDataTwo;
   return (
-    <div className="buttonDataTwoMapDiv-flex-div">
+    <div className="buttonDataTwoMapDiv-flex-div align">
       <div>
-        <h3>{secondPartTitle}</h3>
-        <p>{secondPartP}</p>{" "}
+        <h3 className="common-title">{secondPartTitle}</h3>
+        <p className="common-p">{secondPartP}</p>
       </div>
       <div>
         <img className="bdtDataTwoLogo" src={logo} alt="" />

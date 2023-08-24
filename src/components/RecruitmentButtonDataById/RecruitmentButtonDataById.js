@@ -64,8 +64,8 @@ const RecruitmentButtonDataById = () => {
         ))}
       </div>
 
-      <div>
-        <div className="buttonDataTwo-map-div">
+      <div className="parent-of-two-map-div">
+        <div className="">
           {buttonDataTwo.map((bdtDataTwo) => (
             <ButtonDataTwoMapDiv
               bdtDataTwo={bdtDataTwo}
