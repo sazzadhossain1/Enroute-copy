@@ -9,6 +9,7 @@ import Login from "./components/Login/Login";
 import SignUp from "./components/SignUp/SignUp";
 import ManagedServiceProduct from "./components/ManagedServiceProduct/ManagedServiceProduct";
 import RecruitmentButtonDataById from "./components/RecruitmentButtonDataById/RecruitmentButtonDataById";
+import HrConsulting from "./components/HrConsulting/HrConsulting";
 
 function App() {
   const router = createBrowserRouter([
@@ -60,13 +61,17 @@ function App() {
           element: <ManagedServiceProduct></ManagedServiceProduct>,
         },
         {
-          path: "recruitmentButtonDataBy/:recruitmentButtonDataById",
+          path: "/recruitmentButtonDataBy/:recruitmentButtonDataById",
           loader: async ({ params }) => {
             return fetch(
               `http://localhost:5000/allApisTwo/${params.recruitmentButtonDataById}`
             );
           },
           element: <RecruitmentButtonDataById></RecruitmentButtonDataById>,
+        },
+        {
+          path: "/hrConsulting",
+          element: <HrConsulting></HrConsulting>,
         },
       ],
     },

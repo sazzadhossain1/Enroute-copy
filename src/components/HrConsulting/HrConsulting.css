@@ -1,0 +1,15 @@
+.hrConsulting-div {
+  background-image: url("https://enroute.com.bd/wp-content/uploads/2022/05/HR-Consulting-Banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+.hrConsulting {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 750px;
+}

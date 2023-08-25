@@ -24,8 +24,12 @@ const RecruitmentButtonDataById = () => {
     buttonDataTwo,
     buttonDataTwoAgain,
     buttonSuccessCart,
+    secondPartHeadingOne,
+    secondPartHeadingTwo,
+    secondPartParagraph,
+    secondPartTitle,
   } = getDataById;
-  console.log(buttonSuccessCart);
+  // console.log(secondPartHeadingOne);
 
   //
   const responsive = {
@@ -80,6 +84,7 @@ const RecruitmentButtonDataById = () => {
           <p className="pSecond">{pThird}</p>
         </div>
       </div>
+
       <div>
         {buttonData.map((bdtData) => (
           <ButtonDataMapDiv
@@ -109,7 +114,24 @@ const RecruitmentButtonDataById = () => {
           </div>
         </div>
       </div>
-      <div className="recruitmentButtonDataById-carousel-div">
+      <div className="recruitmentButtonDataById-carousel-div ">
+        {/*  */}
+        <div className="second-part-parent-grid-div recruitmentButtonDataById-div">
+          <div>
+            <div className="second-part-flex-div">
+              <div className="second-part-blank-div"></div>
+              <p className="secondPartTitle">{secondPartTitle}</p>
+            </div>
+            <h4 className="secondPartHeading-flex">
+              <p className="secondPartHeadingOne">{secondPartHeadingOne}</p>
+              <p className="secondPartHeadingTwo">{secondPartHeadingTwo}</p>
+            </h4>
+          </div>
+          <div>
+            <p className="secondPartParagraph">{secondPartParagraph}</p>
+          </div>
+        </div>
+        {/*  */}
         <Carousel className="carousel-width " responsive={responsive}>
           {buttonSuccessCart.map((singleCart) => (
             <SuccessStories

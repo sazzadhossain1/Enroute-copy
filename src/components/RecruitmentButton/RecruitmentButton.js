@@ -11,7 +11,7 @@ const RecruitmentButton = ({ btn }) => {
       <div className="btn-all">
         <img className="managedService-logo" src={logo} alt="" />
         <Link to={`/recruitmentButtonDataBy/${id}`}>{buttonOne}</Link>
-        <Link to={`/recruitmentButtonDataBy/${id}`}>{buttonTwo}</Link>
+        <Link to="/hrConsulting">{buttonTwo}</Link>
         <Link to={`/recruitmentButtonDataBy/${id}`}>{buttonThree}</Link>
         <Link to={`/recruitmentButtonDataBy/${id}`}>{buttonFour}</Link>
       </div>

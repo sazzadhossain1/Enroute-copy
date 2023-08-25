@@ -13,6 +13,11 @@
 
 .recruitmentButtonDataById-carousel-div {
   padding: 50px;
+
+  background-color: rgb(231, 228, 228);
+}
+.recruitmentButtonDataById-div {
+  background-color: rgb(231, 228, 228);
 }
 /* Responsiveness */
 @media screen and (max-width: 1200px) {
