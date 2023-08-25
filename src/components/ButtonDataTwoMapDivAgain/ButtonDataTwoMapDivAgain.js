@@ -2,7 +2,7 @@ import React from "react";
 import "./ButtonDataTwoMapDivAgain.css";
 
 const ButtonDataTwoMapDivAgain = ({ dbtDataTwoAgain }) => {
-  console.log(dbtDataTwoAgain);
+  // console.log(dbtDataTwoAgain);
   const { logo, secondPartTitle, secondPartP } = dbtDataTwoAgain;
   return (
     <div className="buttonDataTwoMapDiv-flex-div text-align">

@@ -11,6 +11,9 @@
   margin-top: 40px;
 }
 
+.recruitmentButtonDataById-carousel-div {
+  padding: 50px;
+}
 /* Responsiveness */
 @media screen and (max-width: 1200px) {
   .children-of-two-map-div {

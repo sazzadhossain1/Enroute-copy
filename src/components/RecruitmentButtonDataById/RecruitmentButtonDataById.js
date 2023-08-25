@@ -4,6 +4,8 @@ import ButtonDataMapDiv from "../ButtonDataMapDiv/ButtonDataMapDiv";
 import ButtonDataTwoMapDiv from "../ButtonDataTwoMapDiv/ButtonDataTwoMapDiv";
 import "./RecruitmentButtonDataById.css";
 import ButtonDataTwoMapDivAgain from "../ButtonDataTwoMapDivAgain/ButtonDataTwoMapDivAgain";
+import Carousel from "react-multi-carousel";
+import SuccessStories from "../SuccessStories/SuccessStories";
 
 const RecruitmentButtonDataById = () => {
   const getDataById = useLoaderData();
@@ -21,8 +23,31 @@ const RecruitmentButtonDataById = () => {
     buttonData,
     buttonDataTwo,
     buttonDataTwoAgain,
+    buttonSuccessCart,
   } = getDataById;
-  // console.log(buttonDataTwoAgain);
+  console.log(buttonSuccessCart);
+
+  //
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1430 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1430, min: 954 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 954, min: 0 },
+      items: 1,
+    },
+  };
+  //
   return (
     <div>
       <div
@@ -83,6 +108,16 @@ const RecruitmentButtonDataById = () => {
             ))}
           </div>
         </div>
+      </div>
+      <div className="recruitmentButtonDataById-carousel-div">
+        <Carousel className="carousel-width " responsive={responsive}>
+          {buttonSuccessCart.map((singleCart) => (
+            <SuccessStories
+              singleCart={singleCart}
+              key={singleCart.id}
+            ></SuccessStories>
+          ))}
+        </Carousel>
       </div>
     </div>
   );
