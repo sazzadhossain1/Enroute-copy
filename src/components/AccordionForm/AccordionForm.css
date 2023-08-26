@@ -1,20 +1,62 @@
+.accordionForm-second-parent-div {
+  background-color: rgb(241, 236, 236);
+  padding: 20px;
+  margin-top: 100px;
+}
+.accordionForm-service-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 65%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: left;
+}
+.blank-flex-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.accordionForm-blank-div {
+  height: 3px;
+  width: 50px;
+  background-color: red;
+}
+.accordionForm-heading {
+  font-size: 35px;
+  font-weight: 700;
+}
+.color {
+  color: red;
+}
 .accordionForm-grid-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 75%;
+  width: 65%;
   margin: auto;
   gap: 20px;
 }
 .accordionForm-children-div {
   text-align: left;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 .details {
   border: 1px solid rgb(233, 228, 228);
   margin-top: 5px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .summary {
   padding: 10px;
-  background-color: white;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  color: rgb(87, 86, 86);
+  font-size: 16px;
+}
+
+.p-div {
+  padding: 10px;
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
 }
