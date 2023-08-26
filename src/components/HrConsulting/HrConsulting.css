@@ -59,3 +59,64 @@
   font-size: 14px;
   color: gray;
 }
+
+@media screen and (max-width: 1650px) {
+  .hrConsulting {
+    margin-left: 650px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .hrConsulting {
+    margin-left: 550px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .hrConsulting {
+    margin-left: 450px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .hrConsulting {
+    margin-left: 400px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .hrConsulting {
+    margin-left: 350px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hrConsulting {
+    margin-left: 300px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .hrConsulting {
+    margin-left: 250px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .hrConsulting {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .hrConsulting {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hrConsulting {
+    margin-left: 80px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .hrConsulting {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .hrConsulting {
+    margin-left: 20px;
+  }
+}
