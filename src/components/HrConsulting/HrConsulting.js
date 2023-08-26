@@ -1,8 +1,35 @@
 import React from "react";
 import "./HrConsulting.css";
 import AccordionForm from "../AccordionForm/AccordionForm";
+import { useLoaderData } from "react-router-dom";
+import Carousel from "react-multi-carousel";
+import SuccessStories from "../SuccessStories/SuccessStories";
 
 const HrConsulting = () => {
+  const getDataForCarousel = useLoaderData();
+  console.log(getDataForCarousel[0].successCart);
+
+  //
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1430 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1430, min: 954 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 954, min: 0 },
+      items: 1,
+    },
+  };
+  //
   return (
     <div className="hrConsulting-parent-div">
       <div className="hrConsulting-div">
@@ -51,6 +78,36 @@ const HrConsulting = () => {
       <div>
         <div className="hrConsulting-main-parent-div">
           <AccordionForm></AccordionForm>
+        </div>
+      </div>
+      <div>
+        <div className="accordionForm-service-grid-div for-carousel">
+          <div>
+            <div className="blank-flex-div">
+              <div className="accordionForm-blank-div"></div>
+              <p>Some of our inspiring</p>
+            </div>
+            <h1 className="accordionForm-heading">
+              <span>Success</span> <span className="color">Stories</span>
+            </h1>
+          </div>
+          <div>
+            <p>
+              Throughout the decade we have been part of some inspiring success
+              stories. These success stories motivate us to strive for an even
+              better tomorrow.
+            </p>
+          </div>
+        </div>
+        <div className="mt-5">
+          <Carousel className="carousel-width " responsive={responsive}>
+            {getDataForCarousel[0].successCart.map((singleCart) => (
+              <SuccessStories
+                singleCart={singleCart}
+                key={singleCart.id}
+              ></SuccessStories>
+            ))}
+          </Carousel>
         </div>
       </div>
     </div>

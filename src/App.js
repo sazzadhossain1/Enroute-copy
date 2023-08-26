@@ -71,6 +71,10 @@ function App() {
         },
         {
           path: "/hrConsulting",
+          loader: async () => {
+            return fetch("http://localhost:5000/allApis");
+          },
+
           element: <HrConsulting></HrConsulting>,
         },
       ],
