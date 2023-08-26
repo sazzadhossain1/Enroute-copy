@@ -60,6 +60,7 @@
   color: gray;
 }
 
+/* Responsiveness start */
 @media screen and (max-width: 1650px) {
   .hrConsulting {
     margin-left: 650px;
@@ -118,5 +119,19 @@
 @media screen and (max-width: 300px) {
   .hrConsulting {
     margin-left: 20px;
+  }
+}
+
+/*  */
+@media screen and (max-width: 1250px) {
+  .hrConsulting-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 900px) {
+  .hrConsulting-grid-div {
+    width: 100%;
+    padding: 10px;
   }
 }

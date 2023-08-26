@@ -11,6 +11,7 @@ const HrConsulting = () => {
       <div className="hrConsulting-grid-div">
         <div>
           <img
+            className="hrConsulting-img"
             src="https://enroute.com.bd/wp-content/uploads/2022/03/HR-Consulting-About.jpg"
             alt=""
           />
