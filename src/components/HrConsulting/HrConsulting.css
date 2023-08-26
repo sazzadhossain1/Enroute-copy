@@ -13,3 +13,49 @@
   margin-top: 180px;
   margin-left: 750px;
 }
+.hrConsulting-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  gap: 30px;
+}
+
+.hrConsulting-flex-div {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.hrConsulting-blank-div {
+  height: 3px;
+  width: 50px;
+  background-color: red;
+}
+
+.hrConsulting-dynamic {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+}
+
+.hrConsulting-heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.text-color {
+  color: red;
+}
+.hrConsulting-text-container-div {
+  text-align: left;
+}
+
+.hrConsulting-p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: gray;
+}

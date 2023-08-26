@@ -1,0 +1,20 @@
+.accordionForm-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  margin: auto;
+  gap: 20px;
+}
+.accordionForm-children-div {
+  text-align: left;
+  margin-top: 100px;
+}
+.details {
+  border: 1px solid rgb(233, 228, 228);
+  margin-top: 5px;
+}
+.summary {
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
