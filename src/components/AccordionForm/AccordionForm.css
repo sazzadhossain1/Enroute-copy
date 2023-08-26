@@ -60,3 +60,21 @@
   color: gray;
   font-weight: 500;
 }
+
+@media screen and (max-width: 1250px) {
+  .accordionForm-service-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 1270px) {
+  .accordionForm-service-grid-div {
+    width: 100%;
+  }
+  .accordionForm-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    width: 100%;
+  }
+}
