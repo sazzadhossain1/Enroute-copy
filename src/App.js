@@ -10,6 +10,7 @@ import SignUp from "./components/SignUp/SignUp";
 import ManagedServiceProduct from "./components/ManagedServiceProduct/ManagedServiceProduct";
 import RecruitmentButtonDataById from "./components/RecruitmentButtonDataById/RecruitmentButtonDataById";
 import HrConsulting from "./components/HrConsulting/HrConsulting";
+import SkillsRecruitment from "./components/SkillsRecruitment/SkillsRecruitment";
 
 function App() {
   const router = createBrowserRouter([
@@ -76,6 +77,10 @@ function App() {
           },
 
           element: <HrConsulting></HrConsulting>,
+        },
+        {
+          path: "/skillsRecruitment",
+          element: <SkillsRecruitment></SkillsRecruitment>,
         },
       ],
     },

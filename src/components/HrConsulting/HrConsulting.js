@@ -81,22 +81,24 @@ const HrConsulting = () => {
         </div>
       </div>
       <div>
-        <div className="accordionForm-service-grid-div for-carousel">
-          <div>
-            <div className="blank-flex-div">
-              <div className="accordionForm-blank-div"></div>
-              <p>Some of our inspiring</p>
+        <div className="for-carousel">
+          <div className="accordionForm-service-grid-div ">
+            <div>
+              <div className="blank-flex-div">
+                <div className="accordionForm-blank-div"></div>
+                <p>Some of our inspiring</p>
+              </div>
+              <h1 className="accordionForm-heading">
+                <span>Success</span> <span className="color">Stories</span>
+              </h1>
             </div>
-            <h1 className="accordionForm-heading">
-              <span>Success</span> <span className="color">Stories</span>
-            </h1>
-          </div>
-          <div>
-            <p>
-              Throughout the decade we have been part of some inspiring success
-              stories. These success stories motivate us to strive for an even
-              better tomorrow.
-            </p>
+            <div>
+              <p>
+                Throughout the decade we have been part of some inspiring
+                success stories. These success stories motivate us to strive for
+                an even better tomorrow.
+              </p>
+            </div>
           </div>
         </div>
         <div className="mt-5">
