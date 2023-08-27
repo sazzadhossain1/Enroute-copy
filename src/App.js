@@ -80,6 +80,9 @@ function App() {
         },
         {
           path: "/skillsRecruitment",
+          loader: async () => {
+            return fetch("http://localhost:5000/allApis");
+          },
           element: <SkillsRecruitment></SkillsRecruitment>,
         },
       ],

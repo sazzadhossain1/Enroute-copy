@@ -1,7 +1,34 @@
 import React from "react";
 import "./SkillsRecruitment.css";
+import { useLoaderData } from "react-router-dom";
+import Carousel from "react-multi-carousel";
+import SuccessStories from "../SuccessStories/SuccessStories";
 
 const SkillsRecruitment = () => {
+  //
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1430 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1430, min: 954 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 954, min: 0 },
+      items: 1,
+    },
+  };
+  //
+
+  const getDataForCarousel = useLoaderData();
+  console.log(getDataForCarousel[0]);
   return (
     <div>
       <div className="skillsRecruitment-background-image-div">
@@ -149,6 +176,39 @@ const SkillsRecruitment = () => {
             src="https://5.imimg.com/data5/SELLER/Default/2023/5/305143451/YG/FI/KU/131208625/hr-payrol-software-erpnext-human-resource-management-payrol-management-erpnext-erp-500x500.jpg"
             alt=""
           />
+        </div>
+      </div>
+
+      <div className="">
+        <div className="for-carousel mb-12">
+          <div className="accordionForm-service-grid-div ">
+            <div>
+              <div className="blank-flex-div">
+                <div className="accordionForm-blank-div"></div>
+                <p>Some of our inspiring</p>
+              </div>
+              <h1 className="accordionForm-heading">
+                <span>Success</span> <span className="color">Stories</span>
+              </h1>
+            </div>
+            <div>
+              <p>
+                Throughout the decade we have been part of some inspiring
+                success stories. These success stories motivate us to strive for
+                an even better tomorrow.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-5">
+          <Carousel className="carousel-width " responsive={responsive}>
+            {getDataForCarousel[0].successCart.map((singleCart) => (
+              <SuccessStories
+                singleCart={singleCart}
+                key={singleCart.id}
+              ></SuccessStories>
+            ))}
+          </Carousel>
         </div>
       </div>
     </div>

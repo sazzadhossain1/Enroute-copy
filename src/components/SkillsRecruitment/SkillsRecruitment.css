@@ -15,16 +15,20 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 100px;
+  height: 750px;
 }
 .text-container-main-parent-div {
   background-color: #e3f1ec;
-  height: 60%;
+  height: 75%;
+  padding: 20px;
 }
 .text-content-parent-div {
   text-align: left;
   padding: 20px;
-  width: 60%;
+  width: 80%;
   margin: auto;
+
+  margin-top: 50px;
 }
 .focus-flex-div {
   display: flex;
@@ -64,5 +68,5 @@
 }
 .whatWeDo-image {
   width: 100%;
-  height: 60%;
+  height: 75%;
 }
