@@ -13,7 +13,7 @@ const RecruitmentButton = ({ btn }) => {
         <Link to={`/recruitmentButtonDataBy/${id}`}>{buttonOne}</Link>
         <Link to="/hrConsulting">{buttonTwo}</Link>
         <Link to="/skillsRecruitment">{buttonThree}</Link>
-        <Link to={`/recruitmentButtonDataBy/${id}`}>{buttonFour}</Link>
+        <Link to="/preEmploymentVerification">{buttonFour}</Link>
       </div>
     </div>
   );

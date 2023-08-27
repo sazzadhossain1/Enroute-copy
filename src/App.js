@@ -11,6 +11,7 @@ import ManagedServiceProduct from "./components/ManagedServiceProduct/ManagedSer
 import RecruitmentButtonDataById from "./components/RecruitmentButtonDataById/RecruitmentButtonDataById";
 import HrConsulting from "./components/HrConsulting/HrConsulting";
 import SkillsRecruitment from "./components/SkillsRecruitment/SkillsRecruitment";
+import PreEmploymentVerification from "./components/PreEmploymentVerification/PreEmploymentVerification";
 
 function App() {
   const router = createBrowserRouter([
@@ -84,6 +85,10 @@ function App() {
             return fetch("http://localhost:5000/allApis");
           },
           element: <SkillsRecruitment></SkillsRecruitment>,
+        },
+        {
+          path: "/preEmploymentVerification",
+          element: <PreEmploymentVerification></PreEmploymentVerification>,
         },
       ],
     },

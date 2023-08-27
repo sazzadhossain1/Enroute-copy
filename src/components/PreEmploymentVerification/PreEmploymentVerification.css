@@ -1,0 +1,15 @@
+.preEmploymentVerification-background-img-div {
+  background-image: url("https://enroute.com.bd/wp-content/uploads/2022/05/pre-employment-verification-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+.preEmploymentVerification-heading {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 650px;
+}
