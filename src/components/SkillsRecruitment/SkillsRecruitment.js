@@ -28,7 +28,7 @@ const SkillsRecruitment = () => {
   //
 
   const getDataForCarousel = useLoaderData();
-  console.log(getDataForCarousel[0]);
+  // console.log(getDataForCarousel[0]);
   return (
     <div>
       <div className="skillsRecruitment-background-image-div">
