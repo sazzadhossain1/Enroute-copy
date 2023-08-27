@@ -77,7 +77,7 @@ const PreEmploymentVerification = () => {
         </div>
       </div>
       {/*  */}
-      <div className="whatWeDo-grid-div">
+      <div className="whatWeDo-grid-div common-parent">
         <div className="text-container-main-parent-div pre">
           <div className="text-content-parent-div">
             <div className="focus-flex-div">
@@ -87,7 +87,7 @@ const PreEmploymentVerification = () => {
               </p>
             </div>
             <h2 className="what-heading">We have a strong network with</h2>
-            <p className="whatWeDo-p">
+            <p className="whatWeDo-p p-for-pre">
               Enroute is one of the renowned employee background verification
               companies in Bangladesh. Our well-organized operational process
               and network with the top government organizations give us an edge
@@ -156,7 +156,7 @@ const PreEmploymentVerification = () => {
         </div>
         <div>
           <img
-            className="whatWeDo-image pre-img"
+            className="whatWeDo-image pre-img "
             src="https://s7d1.scene7.com/is/image/CENODS/09917-feature4-network?$responsive$&wid=700&qlt=90,0&resMode=sharp2"
             alt=""
           />
@@ -165,7 +165,7 @@ const PreEmploymentVerification = () => {
       {/*  */}
 
       {/*  */}
-      <div className="whatWeDo-grid-div">
+      <div className="whatWeDo-grid-div pre-parent common-parent">
         <div>
           <img
             className="whatWeDo-image pre-img"
@@ -255,6 +255,26 @@ const PreEmploymentVerification = () => {
       </div>
       {/*  */}
       <div>
+        <div className="for-carousel mb-12">
+          <div className="accordionForm-service-grid-div ">
+            <div>
+              <div className="blank-flex-div">
+                <div className="accordionForm-blank-div"></div>
+                <p>Some of our inspiring</p>
+              </div>
+              <h1 className="accordionForm-heading">
+                <span>Success</span> <span className="color">Stories</span>
+              </h1>
+            </div>
+            <div>
+              <p>
+                Throughout the decade we have been part of some inspiring
+                success stories. These success stories motivate us to strive for
+                an even better tomorrow.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="mt-5">
           <Carousel className="carousel-width " responsive={responsive}>
             {getDataForCarousel[0].successCart.map((singleCart) => (

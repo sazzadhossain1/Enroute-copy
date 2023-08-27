@@ -13,11 +13,117 @@
   margin-top: 150px;
   margin-left: 650px;
 }
-
+.pre-parent {
+  margin-top: 0;
+}
 .pre {
   height: 650px;
 }
 
 .pre-img {
   margin-top: 88px;
+}
+
+/* responsiveness start */
+@media screen and (max-width: 1550px) {
+  .preEmploymentVerification-heading {
+    margin-left: 600px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .preEmploymentVerification-heading {
+    margin-left: 500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .preEmploymentVerification-heading {
+    margin-left: 450px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .preEmploymentVerification-heading {
+    margin-left: 400px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .preEmploymentVerification-heading {
+    margin-left: 330px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .preEmploymentVerification-heading {
+    margin-left: 250px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .preEmploymentVerification-heading {
+    margin-left: 180px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .preEmploymentVerification-heading {
+    margin-left: 120px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .preEmploymentVerification-heading {
+    margin-left: 90px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .preEmploymentVerification-heading {
+    margin-left: 90px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .preEmploymentVerification-heading {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .preEmploymentVerification-heading {
+    margin-left: 65px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .preEmploymentVerification-heading {
+    margin-left: 40px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .preEmploymentVerification-heading {
+    margin-left: 25px;
+    font-size: 18px;
+  }
+}
+
+/* We have a strong network with */
+@media screen and (max-width: 1255px) {
+  .pre {
+    height: 562px;
+  }
+  .pre-img {
+    margin-top: 0;
+    height: 562px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .common-parent {
+    height: 100%;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .pre {
+    padding: 0px;
+  }
+  .text-content-parent-div {
+    margin-top: 0;
+  }
+  .p-for-pre {
+    display: none;
+  }
 }
