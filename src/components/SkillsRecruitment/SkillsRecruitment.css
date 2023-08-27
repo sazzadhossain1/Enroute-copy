@@ -1,0 +1,12 @@
+.skillsRecruitment-background-image-div {
+  background-image: url("https://enroute.com.bd/wp-content/uploads/2022/05/skills-recruitment-banner.jpg");
+  height: 50vh;
+}
+.SkillsRecruitment-heading {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 750px;
+}

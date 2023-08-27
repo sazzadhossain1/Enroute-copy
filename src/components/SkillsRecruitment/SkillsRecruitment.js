@@ -1,9 +1,10 @@
 import React from "react";
+import "./SkillsRecruitment.css";
 
 const SkillsRecruitment = () => {
   return (
-    <div>
-      <h1>This is SkillsRecruitment</h1>
+    <div className="skillsRecruitment-background-image-div">
+      <h1 className="SkillsRecruitment-heading">Skills Recruitment</h1>
     </div>
   );
 };
