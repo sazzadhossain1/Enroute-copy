@@ -1,5 +1,8 @@
 .skillsRecruitment-background-image-div {
   background-image: url("https://enroute.com.bd/wp-content/uploads/2022/05/skills-recruitment-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 50vh;
 }
 .SkillsRecruitment-heading {
@@ -69,4 +72,142 @@
 .whatWeDo-image {
   width: 100%;
   height: 75%;
+}
+
+/* Responsiveness start */
+@media screen and (max-width: 1650px) {
+  .SkillsRecruitment-heading {
+    margin-left: 700px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .SkillsRecruitment-heading {
+    margin-left: 650px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .SkillsRecruitment-heading {
+    margin-left: 550px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .SkillsRecruitment-heading {
+    margin-left: 500px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .SkillsRecruitment-heading {
+    margin-left: 400px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .SkillsRecruitment-heading {
+    margin-left: 350px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .SkillsRecruitment-heading {
+    margin-left: 250px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .SkillsRecruitment-heading {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .SkillsRecruitment-heading {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .SkillsRecruitment-heading {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .SkillsRecruitment-heading {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .SkillsRecruitment-heading {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .SkillsRecruitment-heading {
+    margin-left: 45px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .SkillsRecruitment-heading {
+    margin-left: 35px;
+  }
+}
+/* ------------------ */
+@media screen and (max-width: 1250px) {
+  .text-container-main-parent-div {
+    height: 650px;
+  }
+  .whatWeDo-image {
+    height: 650px;
+  }
+}
+@media screen and (max-width: 924px) {
+  .text-container-main-parent-div {
+    height: 750px;
+  }
+  .whatWeDo-image {
+    height: 750px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .whatWeDo-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .whatWeDo-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .text-container-main-parent-div {
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .blank-flex-div {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .blank-flex-div {
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 312px) {
+  .blank-flex-div {
+    margin-top: 250px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .blank-flex-div {
+    margin-top: 350px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .blank-flex-div {
+    margin-top: 400px;
+  }
+}
+@media screen and (max-width: 270px) {
+  .blank-flex-div {
+    margin-top: 500px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .blank-flex-div {
+    margin-top: 650px;
+  }
 }
