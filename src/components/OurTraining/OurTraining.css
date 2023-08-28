@@ -12,18 +12,16 @@
 }
 .text-div {
   position: relative;
+  text-align: left;
 }
-.line {
-  content: "";
-  width: 80px;
-  height: 1px;
-  background: #3ab4fd;
-  position: absolute;
-  left: 180px;
-  transform: rotate(-45deg);
-  top: 190px;
+.ourTraining-heading {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
-
+.ourTraining-p {
+  color: gray;
+}
 .circle-2-div {
   background: linear-gradient(to left, #fc00ff -10%, #01dade 88%);
   width: 88px;

@@ -12,7 +12,7 @@ const OurTraining = () => {
               <p>The Approach That Delivers</p>
             </div>
             <h1 className="accordionForm-heading">
-              <span>Our Training</span>{" "}
+              <span>Our Training</span>
               <span className="color">Methodology</span>
             </h1>
           </div>
@@ -26,28 +26,11 @@ const OurTraining = () => {
           </div>
         </div>
       </div>
+      {/*  */}
       <div className="ourTraining-second-part-parent-div">
         <div className="text-div">
-          <h4>Training Need Assessment</h4>
-          <p>
-            Assessing the participants' needs through focused group discussion,
-            field attachment, online examination prior to attending training,
-            and profile assessment
-          </p>
-          <div className="line"></div>
-        </div>
-        <div>
-          <div className="img-div">
-            <img
-              src="https://enroute.com.bd/wp-content/uploads/2022/06/circle2.png"
-              alt=""
-            />
-          </div>
-          <div className="circle-2-div">2</div>
-        </div>
-        <div>
-          <h4>Training Need Assessment</h4>
-          <p>
+          <h4 className="ourTraining-heading">Training Need Assessment</h4>
+          <p className="ourTraining-p">
             Assessing the participants' needs through focused group discussion,
             field attachment, online examination prior to attending training,
             and profile assessment
@@ -60,10 +43,63 @@ const OurTraining = () => {
               alt=""
             />
           </div>
+
           <div className="circle-2-div">2</div>
         </div>
+
+        <div className="text-div">
+          <h4 className="ourTraining-heading">Training Need Assessment</h4>
+          <p className="ourTraining-p">
+            Assessing the participants' needs through focused group discussion,
+            field attachment, online examination prior to attending training,
+            and profile assessment
+          </p>
+        </div>
         <div>
-          <h4>Training Need Assessment</h4>
+          <div className="img-div">
+            <img
+              src="https://enroute.com.bd/wp-content/uploads/2022/06/circle2.png"
+              alt=""
+            />
+          </div>
+          <div className="circle-2-div">4</div>
+        </div>
+        <div className="text-div">
+          <h4 className="ourTraining-heading">Training Need Assessment</h4>
+          <p className="ourTraining-p">
+            Assessing the participants' needs through focused group discussion,
+            field attachment, online examination prior to attending training,
+            and profile assessment
+          </p>
+        </div>
+        <div>
+          <div className="img-div">
+            <img
+              src="https://enroute.com.bd/wp-content/uploads/2022/06/circle2.png"
+              alt=""
+            />
+          </div>
+          <div className="circle-2-div">1</div>
+        </div>
+        <div className="text-div">
+          <h4 className="ourTraining-heading">Training Need Assessment</h4>
+          <p className="ourTraining-p">
+            Assessing the participants' needs through focused group discussion,
+            field attachment, online examination prior to attending training,
+            and profile assessment
+          </p>
+        </div>
+        <div>
+          <div className="img-div">
+            <img
+              src="https://enroute.com.bd/wp-content/uploads/2022/06/circle2.png"
+              alt=""
+            />
+          </div>
+          <div className="circle-2-div">3</div>
+        </div>
+        <div className="text-div">
+          <h4 className="ourTraining-heading">Training Need Assessment</h4>
           <p>
             Assessing the participants' needs through focused group discussion,
             field attachment, online examination prior to attending training,
@@ -77,41 +113,7 @@ const OurTraining = () => {
               alt=""
             />
           </div>
-          <div className="circle-2-div">2</div>
-        </div>
-        <div>
-          <h4>Training Need Assessment</h4>
-          <p>
-            Assessing the participants' needs through focused group discussion,
-            field attachment, online examination prior to attending training,
-            and profile assessment
-          </p>
-        </div>
-        <div>
-          <div className="img-div">
-            <img
-              src="https://enroute.com.bd/wp-content/uploads/2022/06/circle2.png"
-              alt=""
-            />
-          </div>
-          <div className="circle-2-div">2</div>
-        </div>
-        <div>
-          <h4>Training Need Assessment</h4>
-          <p>
-            Assessing the participants' needs through focused group discussion,
-            field attachment, online examination prior to attending training,
-            and profile assessment
-          </p>
-        </div>
-        <div>
-          <div className="img-div">
-            <img
-              src="https://enroute.com.bd/wp-content/uploads/2022/06/circle2.png"
-              alt=""
-            />
-          </div>
-          <div className="circle-2-div">2</div>
+          <div className="circle-2-div">5</div>
         </div>
       </div>
     </div>
