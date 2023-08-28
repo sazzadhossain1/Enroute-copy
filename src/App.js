@@ -12,6 +12,7 @@ import RecruitmentButtonDataById from "./components/RecruitmentButtonDataById/Re
 import HrConsulting from "./components/HrConsulting/HrConsulting";
 import SkillsRecruitment from "./components/SkillsRecruitment/SkillsRecruitment";
 import PreEmploymentVerification from "./components/PreEmploymentVerification/PreEmploymentVerification";
+import CustomizedProgram from "./components/CustomizedProgram/CustomizedProgram";
 
 function App() {
   const router = createBrowserRouter([
@@ -92,6 +93,10 @@ function App() {
             return fetch("http://localhost:5000/allApis");
           },
           element: <PreEmploymentVerification></PreEmploymentVerification>,
+        },
+        {
+          path: "/customizedProgram",
+          element: <CustomizedProgram></CustomizedProgram>,
         },
       ],
     },
