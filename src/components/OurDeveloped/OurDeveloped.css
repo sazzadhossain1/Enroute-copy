@@ -31,3 +31,31 @@
   margin: auto;
   margin-bottom: 100px;
 }
+
+/* Responsiveness start */
+@media screen and (max-width: 1550px) {
+  .ourDeveloped-logo-parent-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    margin: auto;
+  }
+  .ourDeveloped-logo-parent-div-two {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 75%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourDeveloped-logo-parent-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ourDeveloped-logo-parent-div-two {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ourDeveloped-logo-div {
+    width: 100%;
+  }
+}
