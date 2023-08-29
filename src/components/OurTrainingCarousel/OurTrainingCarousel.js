@@ -10,15 +10,15 @@ const OurTrainingCarousel = () => {
       items: 5,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 3000, min: 1224 },
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1224, min: 864 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 864, min: 0 },
       items: 1,
     },
   };
@@ -37,7 +37,7 @@ const OurTrainingCarousel = () => {
           </h1>
         </div>
         <div>
-          <p>
+          <p className="ourSignature">
             Our signature customized courses are developed and delivered
             according to our proven customized personal trainer programs. This
             tried and tested process ensures maximum output
