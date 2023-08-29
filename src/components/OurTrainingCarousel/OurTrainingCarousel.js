@@ -24,6 +24,7 @@ const OurTrainingCarousel = () => {
   };
   return (
     <div className="ourTrainingCarousel-parent-div">
+      {/*  */}
       <div className="ourTrainingCarousel-grid-div">
         <div>
           <div className="Organizational-flex-div">
@@ -44,6 +45,7 @@ const OurTrainingCarousel = () => {
           </p>
         </div>
       </div>
+      {/*  */}
       <div className="carousel-div">
         <Carousel responsive={responsive}>
           <div className="carousel-cart">

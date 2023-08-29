@@ -33,6 +33,7 @@
 .carousel-div {
   width: 75%;
   margin: auto;
+  margin-bottom: 50px;
 }
 .carousel-cart {
   background-color: white;

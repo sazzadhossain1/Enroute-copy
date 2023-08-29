@@ -1,6 +1,7 @@
 import React from "react";
 import "./CustomizedProgram.css";
 import OurTraining from "../OurTraining/OurTraining";
+import OurDeveloped from "../OurDeveloped/OurDeveloped";
 
 const CustomizedProgram = () => {
   return (
@@ -52,6 +53,7 @@ const CustomizedProgram = () => {
         </div>
       </div>
       <OurTraining></OurTraining>
+      <OurDeveloped></OurDeveloped>
     </div>
   );
 };
