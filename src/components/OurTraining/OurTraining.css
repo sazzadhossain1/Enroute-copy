@@ -43,6 +43,12 @@
 }
 
 /*  */
+
+@media screen and (max-width: 1240px) {
+  .theApproach {
+    padding: 20px;
+  }
+}
 @media screen and (max-width: 1350px) {
   .ourTraining-second-part-parent-div {
     display: grid;

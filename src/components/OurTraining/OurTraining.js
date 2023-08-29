@@ -1,18 +1,19 @@
 import React from "react";
 import "./OurTraining.css";
+import OurTrainingCarousel from "../OurTrainingCarousel/OurTrainingCarousel";
 
 const OurTraining = () => {
   return (
     <div className="">
       <div className="ourTraining-main-second-parent-div ">
-        <div className="accordionForm-service-grid-div">
+        <div className="accordionForm-service-grid-div theApproach">
           <div>
             <div className="blank-flex-div mt-16">
               <div className="accordionForm-blank-div"></div>
               <p>The Approach That Delivers</p>
             </div>
             <h1 className="accordionForm-heading">
-              <span>Our Training</span>
+              <span>Our Training </span>
               <span className="color">Methodology</span>
             </h1>
           </div>
@@ -116,6 +117,7 @@ const OurTraining = () => {
           <div className="circle-2-div">5</div>
         </div>
       </div>
+      <OurTrainingCarousel></OurTrainingCarousel>
     </div>
   );
 };

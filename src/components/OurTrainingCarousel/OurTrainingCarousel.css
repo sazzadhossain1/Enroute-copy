@@ -1,0 +1,10 @@
+.Organizational-flex-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Organizational-blank-div {
+  height: 3px;
+  width: 50px;
+  background-color: red;
+}
