@@ -27,61 +27,87 @@ const OurDeveloped = () => {
       </div>
       {/*  */}
       <div className="ourDeveloped-logo-parent-div">
-        <div className="ourDeveloped-logo-flex-div">
+        <div className="ourDeveloped-logo-div">
           <img
+            className="img-logo"
             src="https://enroute.com.bd/wp-content/uploads/2022/03/lecture.png"
             alt=""
           />
-          <h3>Lecture</h3>
+          <h3 className="logo-heading">Lecture</h3>
         </div>
         <div className="ourDeveloped-logo-div">
           <img
+            className="img-logo"
             src="https://enroute.com.bd/wp-content/uploads/2022/03/written-test.png"
             alt=""
           />
-          <h3>Written Exercise</h3>
+          <h3 className="logo-heading">Written Exercise</h3>
         </div>
         <div className="ourDeveloped-logo-div">
           <img
+            className="img-logo"
             src="https://enroute.com.bd/wp-content/uploads/2022/03/games.png"
             alt=""
           />
-          <h3>Games</h3>
+          <h3 className="logo-heading">Games</h3>
         </div>
         <div className="ourDeveloped-logo-div">
           <img
+            className="img-logo"
             src="https://enroute.com.bd/wp-content/uploads/2022/03/video.png"
             alt=""
           />
-          <h3>Reference Video</h3>
+          <h3 className="logo-heading">Reference Video</h3>
         </div>
         <div className="ourDeveloped-logo-div">
           <img
+            className="img-logo"
             src="https://enroute.com.bd/wp-content/uploads/2022/03/case-study.png"
             alt=""
           />
-          <h3>Customized Case Study</h3>
+          <h3 className="logo-heading">Customized Case Study</h3>
         </div>
         <div className="ourDeveloped-logo-div">
           <img
+            className="img-logo"
             src="https://enroute.com.bd/wp-content/uploads/2023/05/role-play.png"
             alt=""
           />
-          <h3>Role Play</h3>
+          <h3 className="logo-heading">Role Play</h3>
         </div>
         <div className="ourDeveloped-logo-div">
           <img
+            className="img-logo"
             src="https://enroute.com.bd/wp-content/uploads/2023/05/demosntration.png"
             alt=""
           />
-          <h3>Demonstration</h3>
+          <h3 className="logo-heading">Demonstration</h3>
         </div>
         <div className="ourDeveloped-logo-div">
           <img
+            className="img-logo"
             src="https://enroute.com.bd/wp-content/uploads/2022/03/home-work.png"
             alt=""
           />
-          <h3>Home Work</h3>
+          <h3 className="logo-heading">Home Work</h3>
+        </div>
+      </div>
+      <div className="ourDeveloped-logo-parent-div-two">
+        <div className="ourDeveloped-logo-div">
+          <img
+            className="img-logo"
+            src="https://enroute.com.bd/wp-content/uploads/2022/03/formal-monitoring.png"
+            alt=""
+          />
+          <h3 className="logo-heading">Formal Monitoring</h3>
+        </div>
+        <div className="ourDeveloped-logo-div">
+          <img
+            className="img-logo"
+            src="https://enroute.com.bd/wp-content/uploads/2023/05/e-learning.png"
+            alt=""
+          />
+          <h3 className="logo-heading">E-learning</h3>
         </div>
       </div>
     </div>
