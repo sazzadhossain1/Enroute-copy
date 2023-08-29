@@ -46,9 +46,12 @@ const OurTrainingCarousel = () => {
       </div>
       <div className="carousel-div">
         <Carousel responsive={responsive}>
-          <div>
-            <h3>Strategic Negotiation</h3>
-            <div>
+          <div className="carousel-cart">
+            <h3 className="ourTrainingCarousel-heading-h3">
+              Strategic Negotiation
+            </h3>
+            <div className="ourTrainingCarousel-border-div"></div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -56,7 +59,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Fundamentals of Negotiation</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -64,7 +67,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Why negotiate?</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -72,7 +75,7 @@ const OurTrainingCarousel = () => {
               />
               <p>3D Model</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -80,7 +83,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Best Alternative to Negotiated Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -88,7 +91,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Zone of Possible Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -96,7 +99,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Playing with your tactics</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -104,7 +107,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Handling Ethical issues</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -113,9 +116,12 @@ const OurTrainingCarousel = () => {
               <p>Negotiation secrets</p>
             </div>
           </div>
-          <div>
-            <h3>Strategic Negotiation</h3>
-            <div>
+          <div className="carousel-cart">
+            <h3 className="ourTrainingCarousel-heading-h3">
+              Strategic Negotiation
+            </h3>
+            <div className="ourTrainingCarousel-border-div"></div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -123,7 +129,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Fundamentals of Negotiation</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -131,7 +137,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Why negotiate?</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -139,7 +145,7 @@ const OurTrainingCarousel = () => {
               />
               <p>3D Model</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -147,7 +153,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Best Alternative to Negotiated Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -155,7 +161,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Zone of Possible Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -163,7 +169,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Playing with your tactics</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -171,7 +177,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Handling Ethical issues</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -180,9 +186,12 @@ const OurTrainingCarousel = () => {
               <p>Negotiation secrets</p>
             </div>
           </div>
-          <div>
-            <h3>Strategic Negotiation</h3>
-            <div>
+          <div className="carousel-cart">
+            <h3 className="ourTrainingCarousel-heading-h3">
+              Strategic Negotiation
+            </h3>
+            <div className="ourTrainingCarousel-border-div"></div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -190,7 +199,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Fundamentals of Negotiation</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -198,7 +207,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Why negotiate?</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -206,7 +215,7 @@ const OurTrainingCarousel = () => {
               />
               <p>3D Model</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -214,7 +223,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Best Alternative to Negotiated Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -222,7 +231,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Zone of Possible Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -230,7 +239,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Playing with your tactics</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -238,7 +247,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Handling Ethical issues</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -247,9 +256,12 @@ const OurTrainingCarousel = () => {
               <p>Negotiation secrets</p>
             </div>
           </div>
-          <div>
-            <h3>Strategic Negotiation</h3>
-            <div>
+          <div className="carousel-cart">
+            <h3 className="ourTrainingCarousel-heading-h3">
+              Strategic Negotiation
+            </h3>
+            <div className="ourTrainingCarousel-border-div"></div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -257,7 +269,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Fundamentals of Negotiation</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -265,7 +277,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Why negotiate?</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -273,7 +285,7 @@ const OurTrainingCarousel = () => {
               />
               <p>3D Model</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -281,7 +293,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Best Alternative to Negotiated Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -289,7 +301,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Zone of Possible Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -297,7 +309,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Playing with your tactics</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -305,7 +317,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Handling Ethical issues</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -314,9 +326,12 @@ const OurTrainingCarousel = () => {
               <p>Negotiation secrets</p>
             </div>
           </div>
-          <div>
-            <h3>Strategic Negotiation</h3>
-            <div>
+          <div className="carousel-cart">
+            <h3 className="ourTrainingCarousel-heading-h3">
+              Strategic Negotiation
+            </h3>
+            <div className="ourTrainingCarousel-border-div"></div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -324,7 +339,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Fundamentals of Negotiation</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -332,7 +347,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Why negotiate?</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -340,7 +355,7 @@ const OurTrainingCarousel = () => {
               />
               <p>3D Model</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -348,7 +363,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Best Alternative to Negotiated Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -356,7 +371,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Zone of Possible Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -364,7 +379,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Playing with your tactics</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -372,7 +387,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Handling Ethical issues</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -381,9 +396,12 @@ const OurTrainingCarousel = () => {
               <p>Negotiation secrets</p>
             </div>
           </div>
-          <div>
-            <h3>Strategic Negotiation</h3>
-            <div>
+          <div className="carousel-cart">
+            <h3 className="ourTrainingCarousel-heading-h3">
+              Strategic Negotiation
+            </h3>
+            <div className="ourTrainingCarousel-border-div"></div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -391,7 +409,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Fundamentals of Negotiation</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -399,7 +417,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Why negotiate?</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -407,7 +425,7 @@ const OurTrainingCarousel = () => {
               />
               <p>3D Model</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -415,7 +433,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Best Alternative to Negotiated Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -423,7 +441,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Zone of Possible Agreement</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -431,7 +449,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Playing with your tactics</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"
@@ -439,7 +457,7 @@ const OurTrainingCarousel = () => {
               />
               <p>Handling Ethical issues</p>
             </div>
-            <div>
+            <div className="ourTrainingCarousel-flex-div">
               <img
                 className="tick-mark-logo"
                 src="https://static.vecteezy.com/system/resources/previews/014/455/871/large_2x/green-check-mark-icon-on-transparent-background-free-png.png"

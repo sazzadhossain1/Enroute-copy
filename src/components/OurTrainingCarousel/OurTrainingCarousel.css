@@ -34,3 +34,32 @@
   width: 75%;
   margin: auto;
 }
+.carousel-cart {
+  background-color: white;
+  padding: 20px;
+  width: 90%;
+}
+.ourTrainingCarousel-heading-h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.ourTrainingCarousel-border-div {
+  height: 2px;
+  width: 90%;
+  margin: auto;
+
+  background-color: rgb(233, 229, 229);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.ourTrainingCarousel-flex-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.ourTrainingCarousel-flex-div p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+}
