@@ -1,3 +1,17 @@
+.ourTrainingCarousel-parent-div {
+  background-color: rgb(247, 243, 243);
+  padding: 20px;
+  margin-top: 100px;
+}
+.ourTrainingCarousel-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  margin: auto;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 .Organizational-flex-div {
   display: flex;
   align-items: center;
@@ -7,4 +21,16 @@
   height: 3px;
   width: 50px;
   background-color: red;
+}
+.ourTrainingCarousel-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+.courses {
+  color: red;
+}
+
+.carousel-div {
+  width: 75%;
+  margin: auto;
 }
