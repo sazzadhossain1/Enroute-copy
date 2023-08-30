@@ -33,8 +33,14 @@
   margin-top: 50px;
   width: 100%;
 }
+.who-is-it-for-photo-grid-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+}
 .who-is-it-for-photo {
   width: 100px;
+  height: 220px;
 }
 @media screen and (max-width: 1350px) {
   .leadership-parent-grid-div {
