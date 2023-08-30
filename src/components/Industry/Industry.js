@@ -1,5 +1,6 @@
 import React from "react";
 import "./Industry.css";
+import StrongFoothold from "../StrongFoothold/StrongFoothold";
 
 const Industry = () => {
   return (
@@ -49,6 +50,7 @@ const Industry = () => {
           </div>
         </div>
       </div>
+      <StrongFoothold></StrongFoothold>
     </div>
   );
 };
