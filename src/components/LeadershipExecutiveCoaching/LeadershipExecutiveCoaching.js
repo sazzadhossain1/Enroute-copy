@@ -94,6 +94,92 @@ const LeadershipExecutiveCoaching = () => {
         </div>
       </div>
       {/*  */}
+      {/*  */}
+      <div>
+        <div className=" leadership-parent-grid-div">
+          <div>
+            <img
+              className=" leader-img"
+              src="https://media.istockphoto.com/id/1458679553/photo/group-of-high-school-students-using-laptop-in-library.jpg?s=612x612&w=0&k=20&c=J3m3dun5n8O8upIbOZ_nqFG1K4EBFqh0MYonPgMfm5g="
+              alt=""
+            />
+          </div>
+          <div className="leadership-text-color-div">
+            <div className="leadership-text-div">
+              <div className="focus-flex-div">
+                <div className="focus-blank-div"></div>
+                <p className="focus-p">Be The Next Catalyst of Change</p>
+              </div>
+              <h2 className="what-heading">Who is it for?</h2>
+              <p className="whatWeDo-p p-for-pre leader-p">
+                We have designed the executive and leadership coaching sessions
+                to integrate spaces for action & spaces for reflection. The
+                sessions are usually an hour long and arranged for individuals
+                or as a group.
+              </p>
+              <p className="whatWeDo-p p-for-pre leader-p">
+                The number of sessions varies depending on the coachable items
+                as agreed during contracting with the coachee. With Enroute’s
+                professional leadership coaching, coachees are able to achieve
+                enhanced performance, empowerment, a fresh perspective and
+                acquire the necessary leadership qualities.
+              </p>
+
+              <div>
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      {/*  */}
+      <div>
+        <div className=" leadership-parent-grid-div">
+          <div className="leadership-text-color-div">
+            <div className="leadership-text-div">
+              <div className="focus-flex-div">
+                <div className="focus-blank-div"></div>
+                <p className="focus-p">Reach a New Level of Success</p>
+              </div>
+              <h2 className="what-heading">
+                What is Leadership & Executive Coaching?
+              </h2>
+              <p className="whatWeDo-p p-for-pre leader-p">
+                The terms Leadership and Executive Coaching are often used
+                interchangeably. Both involve working with individuals in
+                leadership positions, though Executive Coaching is often used to
+                describe coaching with leaders in more senior roles. For our
+                program, we have named it Leadership and Executive Coaching
+                (LEC) as a catch-all.
+              </p>
+              <p className="whatWeDo-p p-for-pre leader-p">
+                We have designed our executive leadership coaching program by
+                combining the Systems, Psychodynamics, and Coaching approaches.
+              </p>
+              <p className="whatWeDo-p p-for-pre leader-p">
+                Focusing on the potential and genuine future desires of the
+                coachees. Aiming to set goals for these potentials and desires
+                Asking apt questions so that the coachees can ﬁnd the answers
+                within themselves and in their external environment by
+                discovering their true selves and then ﬁnd the energy to change,
+                act and reach their goals.
+              </p>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <img
+              className=" leader-img"
+              src="https://media.istockphoto.com/id/486547020/photo/close-up-of-microphone-on-musician-blurred-background.jpg?s=612x612&w=0&k=20&c=qL7iHtRIIYF9fl_D6tQVlCdS7-HQNhovN4bfLdSCo30="
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      {/*  */}
     </div>
   );
 };
