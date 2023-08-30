@@ -1,7 +1,34 @@
 import React from "react";
 import "./LeadershipExecutiveCoaching.css";
+import { useLoaderData } from "react-router-dom";
+import Carousel from "react-multi-carousel";
+import SuccessStories from "../SuccessStories/SuccessStories";
 
 const LeadershipExecutiveCoaching = () => {
+  const getApiForCarousel = useLoaderData();
+  console.log(getApiForCarousel);
+
+  //
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1430 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1430, min: 954 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 954, min: 0 },
+      items: 1,
+    },
+  };
+  //
   return (
     <div>
       <div className="leadership-background-img">
@@ -174,6 +201,17 @@ const LeadershipExecutiveCoaching = () => {
         </div>
       </div>
       {/*  */}
+
+      <div className="mt-5">
+        <Carousel className="carousel-width " responsive={responsive}>
+          {getApiForCarousel[0].successCart.map((singleCart) => (
+            <SuccessStories
+              singleCart={singleCart}
+              key={singleCart.id}
+            ></SuccessStories>
+          ))}
+        </Carousel>
+      </div>
     </div>
   );
 };
