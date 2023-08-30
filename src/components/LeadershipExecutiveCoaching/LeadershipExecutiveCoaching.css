@@ -93,3 +93,15 @@
     display: block;
   }
 }
+@media screen and (max-width: 650px) {
+  .who-is-it-for-photo-grid-div {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .who-is-it-for-photo-grid-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
