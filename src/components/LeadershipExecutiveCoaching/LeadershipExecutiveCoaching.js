@@ -125,10 +125,22 @@ const LeadershipExecutiveCoaching = () => {
                 acquire the necessary leadership qualities.
               </p>
 
-              <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+              <div className="who-is-it-for-photo-grid-div">
+                <img
+                  className="who-is-it-for-photo"
+                  src="https://enroute.com.bd/wp-content/uploads/2022/04/individual.png"
+                  alt=""
+                />
+                <img
+                  className="who-is-it-for-photo"
+                  src="https://enroute.com.bd/wp-content/uploads/2022/04/women.png"
+                  alt=""
+                />
+                <img
+                  className="who-is-it-for-photo"
+                  src="https://enroute.com.bd/wp-content/uploads/2022/04/group.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
