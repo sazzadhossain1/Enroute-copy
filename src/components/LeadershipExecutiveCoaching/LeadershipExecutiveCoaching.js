@@ -49,6 +49,51 @@ const LeadershipExecutiveCoaching = () => {
           </div>
         </div>
       </div>
+      {/*  */}
+      <div>
+        <div className=" leadership-parent-grid-div">
+          <div className="leadership-text-color-div">
+            <div className="leadership-text-div">
+              <div className="focus-flex-div">
+                <div className="focus-blank-div"></div>
+                <p className="focus-p">Reach a New Level of Success</p>
+              </div>
+              <h2 className="what-heading">
+                What is Leadership & Executive Coaching?
+              </h2>
+              <p className="whatWeDo-p p-for-pre leader-p">
+                The terms Leadership and Executive Coaching are often used
+                interchangeably. Both involve working with individuals in
+                leadership positions, though Executive Coaching is often used to
+                describe coaching with leaders in more senior roles. For our
+                program, we have named it Leadership and Executive Coaching
+                (LEC) as a catch-all.
+              </p>
+              <p className="whatWeDo-p p-for-pre leader-p">
+                We have designed our executive leadership coaching program by
+                combining the Systems, Psychodynamics, and Coaching approaches.
+              </p>
+              <p className="whatWeDo-p p-for-pre leader-p">
+                Focusing on the potential and genuine future desires of the
+                coachees. Aiming to set goals for these potentials and desires
+                Asking apt questions so that the coachees can ﬁnd the answers
+                within themselves and in their external environment by
+                discovering their true selves and then ﬁnd the energy to change,
+                act and reach their goals.
+              </p>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <img
+              className=" leader-img"
+              src="https://kidspot.co.nz/wp-content/uploads/2016/06/paperplanemaking.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      {/*  */}
     </div>
   );
 };
