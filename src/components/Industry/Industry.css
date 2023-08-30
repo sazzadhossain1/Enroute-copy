@@ -1,0 +1,8 @@
+.industry-background-img-div {
+  background-image: url("https://enroute.com.bd/wp-content/uploads/2022/05/industry-page-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  padding: 100px;
+}
