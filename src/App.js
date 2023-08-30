@@ -101,6 +101,9 @@ function App() {
         },
         {
           path: "/leadershipExecutiveCoaching",
+          loader: async () => {
+            return fetch("http://localhost:5000/allApis");
+          },
           element: <LeadershipExecutiveCoaching></LeadershipExecutiveCoaching>,
         },
       ],
