@@ -52,7 +52,7 @@ const ExecutiveEducation = ({ tp }) => {
                   src="https://w7.pngwing.com/pngs/283/605/png-transparent-butterfly-green-color-butterfly-brush-footed-butterfly-symmetry-insects-thumbnail.png"
                   alt=""
                 />
-                <Link>{btnFour}</Link>
+                <Link to="/leadershipExecutiveCoaching">{btnFour}</Link>
               </button>
             </div>
           </div>

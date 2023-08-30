@@ -13,6 +13,7 @@ import HrConsulting from "./components/HrConsulting/HrConsulting";
 import SkillsRecruitment from "./components/SkillsRecruitment/SkillsRecruitment";
 import PreEmploymentVerification from "./components/PreEmploymentVerification/PreEmploymentVerification";
 import CustomizedProgram from "./components/CustomizedProgram/CustomizedProgram";
+import LeadershipExecutiveCoaching from "./components/LeadershipExecutiveCoaching/LeadershipExecutiveCoaching";
 
 function App() {
   const router = createBrowserRouter([
@@ -97,6 +98,10 @@ function App() {
         {
           path: "/customizedProgram",
           element: <CustomizedProgram></CustomizedProgram>,
+        },
+        {
+          path: "/leadershipExecutiveCoaching",
+          element: <LeadershipExecutiveCoaching></LeadershipExecutiveCoaching>,
         },
       ],
     },
