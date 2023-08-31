@@ -1,0 +1,24 @@
+.strongFoothold-parent-div {
+  background-color: rgb(237, 250, 237);
+  margin-top: 100px;
+}
+.strongFoothold-child-div {
+  padding-top: 100px;
+}
+.strongFoothold-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+.strongFoothold-textAndLogo-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  margin: auto;
+}
+.strongFoothold-textAndLogo-div {
+  display: flex;
+  align-items: center;
+}
+.strongFoothold-logo {
+  width: 50px;
+}
