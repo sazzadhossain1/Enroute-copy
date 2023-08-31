@@ -49,15 +49,15 @@ const EnrouteIndustry = () => {
       {/*  */}
       <div>
         <div className=" leadership-parent-grid-div">
-          <div>
+          <div className="rechart-img-div">
             <img
-              className=" leader-img"
+              className=" leader-img "
               src="https://previews.123rf.com/images/vadimgozhda/vadimgozhda1506/vadimgozhda150604353/41756197-two-young-beautiful-business-women-dressed-formal-shaking-hands-at-office.jpg"
               alt=""
             />
           </div>
-          <div className="leadership-text-color-div">
-            <div className="leadership-text-div">
+          <div className="leadership-text-color-div rechart-text-div">
+            <div className="leadership-text-div ">
               <div className="focus-flex-div">
                 <div className="focus-blank-div"></div>
                 <p className="focus-p">
