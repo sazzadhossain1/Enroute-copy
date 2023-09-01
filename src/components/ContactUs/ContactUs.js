@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactUs.css";
+import ContactUsAccordionForm from "../ContactUsAccordionForm/ContactUsAccordionForm";
 
 const ContactUs = () => {
   return (
@@ -74,6 +75,8 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+
+      <ContactUsAccordionForm></ContactUsAccordionForm>
     </div>
   );
 };

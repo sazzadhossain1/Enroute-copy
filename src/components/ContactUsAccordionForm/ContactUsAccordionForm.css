@@ -1,0 +1,15 @@
+.contactUsAccordionForm-parent-div {
+  width: 50%;
+  margin: auto;
+}
+.contactUsAccordionForm-details {
+  background-color: rgb(230, 253, 230);
+  border-radius: 5px;
+}
+
+.summary-color {
+  color: green;
+  font-weight: 700;
+  border-left: 3px solid green;
+  border-radius: 5px;
+}
