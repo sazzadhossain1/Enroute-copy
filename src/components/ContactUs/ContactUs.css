@@ -1,0 +1,13 @@
+.contactUs-background-img-div {
+  background-image: url("https://enroute.com.bd/wp-content/uploads/2022/05/contact-us-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  padding: 100px;
+}
+.contactUs-heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}

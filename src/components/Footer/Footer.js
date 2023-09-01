@@ -71,7 +71,7 @@ const Footer = () => {
             <div className="footer-logo-div">
               <img
                 className="footer-logo"
-                src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo-500x313.png"
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/150px-Facebook_f_logo_%282021%29.svg.png"
                 alt=""
               />
             </div>

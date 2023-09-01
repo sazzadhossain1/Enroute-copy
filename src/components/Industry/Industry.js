@@ -6,7 +6,7 @@ const Industry = () => {
   return (
     <div>
       <div className="industry-background-img-div">
-        <h2 className="leadership-heading">This is industry</h2>
+        <h2 className="leadership-heading">Industry</h2>
       </div>
 
       <div>
