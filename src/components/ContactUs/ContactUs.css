@@ -11,3 +11,21 @@
   font-weight: 700;
   color: white;
 }
+
+.contactUs-cart-grid-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 60%;
+  margin: auto;
+  background-color: snow;
+  box-shadow: 5px 5px 10px rgb(204, 203, 203);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 20px;
+}
+.commonColor-siz {
+  font-size: 30px;
+  font-weight: 500;
+  color: green;
+  margin-bottom: 40px;
+}

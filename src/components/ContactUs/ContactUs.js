@@ -9,7 +9,7 @@ const ContactUs = () => {
       </div>
       <div className="contactUs-cart-grid-div">
         <div>
-          <h2>Get in Touch</h2>
+          <h2 className="commonColor-siz">Get in Touch</h2>
 
           <div>
             <h4>Contact</h4>
@@ -26,7 +26,7 @@ const ContactUs = () => {
           </div>
         </div>
         <div>
-          <h2>Address and Mail</h2>
+          <h2 className="commonColor-siz">Address and Mail</h2>
 
           <div>
             <h4>Address</h4>
@@ -41,7 +41,7 @@ const ContactUs = () => {
           </div>
         </div>
         <div>
-          <h2>Social Media</h2>
+          <h2 className="commonColor-siz">Social Media</h2>
           <div className="footer-flex-parent-logo-div">
             <div className="footer-logo-div">
               <img
