@@ -1,6 +1,29 @@
 .contactUsAccordionForm-parent-div {
-  width: 50%;
+  width: 70%;
   margin: auto;
+  margin-bottom: 50px;
+}
+.contactUsAccordionForm-flex-and-text-div {
+  text-align: left;
+}
+.contactUsAccordionForm-flex-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contactUsAccordionForm-blank-div {
+  height: 3px;
+  width: 70px;
+  background-color: green;
+}
+.information-questions {
+  color: green;
+  font-weight: 500;
+}
+.frequently {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(70, 70, 70);
 }
 .contactUsAccordionForm-details {
   background-color: rgb(230, 253, 230);
@@ -12,4 +35,11 @@
   font-weight: 700;
   border-left: 3px solid green;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .contactUsAccordionForm-parent-div {
+    width: 100%;
+    padding: 20px;
+  }
 }

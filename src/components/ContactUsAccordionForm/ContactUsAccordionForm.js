@@ -4,92 +4,114 @@ import "./ContactUsAccordionForm.css";
 const ContactUsAccordionForm = () => {
   return (
     <div className="contactUsAccordionForm-parent-div">
-      <div className="accordionForm-children-div">
+      <div className="contactUsAccordionForm-flex-and-text-div">
+        <div className="contactUsAccordionForm-flex-div">
+          <div className="contactUsAccordionForm-blank-div"></div>
+          <h4 className="information-questions">INFORMATION QUESTIONS</h4>
+        </div>
+        <h1 className="frequently">Frequently Asked Questions</h1>
+      </div>
+      <div className="accordionForm-children-div contactUsAccordionForm-children-div">
         <details className="details contactUsAccordionForm-details">
           <summary className="summary summary-color">
             How can I get Outsourcing Services for business?
           </summary>
           <div className="p-div">
             <p>
-              Employer branding is the process of promoting a company, or an
-              organization, as the employer of choice to a desired target group,
-              one which a company needs and wants to recruit and retain. We are
-              connected with all the career counseling departments, student
-              bodies of the reputed public and private universities. We have lot
-              of experiences in campus recruitments, job fair etc.
+              Enroute has a sophisticatedly designed outsourcing structure that
+              has helped businesses reach their peak potential and increase
+              operational efficiency since its inception. If you are looking for
+              people outsourcing and management support you can contact us
+              directly at our outsourcing department and share your needs so we
+              can start working on what you need straight away. Contact us
+              directly at 01922555373 or email us at boony@enroute.com.bd
             </p>
           </div>
         </details>
-        <details className="details">
-          <summary className="summary">2. HR Process Development</summary>
+        <details className="details contactUsAccordionForm-details">
+          <summary className="summary summary-color">
+            How can I get Facility Services to develop my business?
+          </summary>
           <div className="p-div">
             <p>
-              We are successfully managing the hr process for many
-              organizations. We are experienced in developing hr policy,
-              developing organogram for different organizations.
+              The business facility is an integral part of all businesses.
+              However, the time & energy required to establish and maintain the
+              business is enormous. That’s why to maintain or set up your
+              business facilities outsourcing your need is the right way out. We
+              have a team of highly experienced individuals who has the
+              competency of developing & delivering all your facility needs. If
+              you are seeking for the top-notch facility services simply contact
+              us at +𝟖𝟖𝟎𝟗𝟔𝟏𝟎-𝟒𝟎𝟓𝟎𝟔𝟎 or Email: efms@enroute.com.bd
             </p>
           </div>
         </details>
-        <details className="details">
-          <summary className="summary">3. Focus Group Discussion</summary>
+        <details className="details contactUsAccordionForm-details">
+          <summary className="summary summary-color">
+            How can I get corporate Event Activation support for my company?
+          </summary>
           <div className="p-div">
             <p>
-              A focus group discussion (FGD) is a good way to gather together
-              people from similar backgrounds or experiences to discuss a
-              specific topic of interest of the employees of the organization.
+              Designing & implementing a successful event or activation campaign
+              takes expertise on top of functional know-how. Enroute has the
+              perfect team of experts who can lead the way for you so you can
+              get the most out of your event activation campaigns. Contact
+              Enroute to get your next corporate event in the spotlight. Simply
+              contact us at +8809610405060 or email: info@enroute.com.bd
             </p>
           </div>
         </details>
-        <details className="details">
-          <summary className="summary">4.MTO Hiring Program</summary>
+        <details className="details contactUsAccordionForm-details">
+          <summary className="summary summary-color">
+            Do you have any Training Now?
+          </summary>
           <div className="p-div">
-            <p>
-              Enroute is arranging the MTO hiring program since 2012. In the
-              program we do:
-            </p>
-            <ul>
-              <li className="li-flex">
-                1. Screening and shortlisting of candidates who meet qualifying
-                requirements of the respective/client company
-              </li>
-              <li>
-                2. Candidates appear for a competitive written test as per the
-                requirements of the respective/client company
-              </li>
-              <li>
-                3. Face to face interview with the respective/client company
-              </li>
-              <li>4. Medical test by the respective/client company</li>
-              <li>
-                5. Final shortlisting, selection and offer by the
-                respective/client company
-              </li>
-            </ul>
+            Enroute has a specific department that leads corporate development &
+            on job learning opportunities. Under different modalities Enroute
+            Center for Development provides executive education for individuals
+            & groups. For ongoing individual development training, you can head
+            over to our open training platform https://open.ecdl.com.bd/courses/
+            as well as visit https://sudoksho.com/ for self-paced learning.
           </div>
         </details>
-        <details className="details">
-          <summary className="summary">5. MTO Development Program</summary>
+        <details className="details contactUsAccordionForm-details">
+          <summary className="summary summary-color">
+            How Can I send my CV?
+          </summary>
           <div className="p-div">
             <p>
-              Enroute thinks Management Trainee Officer Development Program is
-              the best way to prepare employees to become managers in the
-              future. It equips them with the required skills, judgment, and
-              know-how of being an effective and responsible manager. The
-              benefits of having management trainees in a company are obvious;
-              it provides a good succession planning and improves morale.
+              As part of our working expertise in sourcing and managing human
+              resources we often look for different expertise under different
+              departments. You can send your CV to us so when we are looking for
+              new recruits we can have a look straight away. Send your CV
+              directly at cv@enroute.com.bd.
             </p>
           </div>
         </details>
-        <details className="details">
-          <summary className="summary">6. Salary Survey</summary>
+        <details className="details contactUsAccordionForm-details">
+          <summary className="summary summary-color">
+            How Can I send my CV?
+          </summary>
           <div className="p-div">
             <p>
-              Salary surveys are conducted with numerous employers to determine
-              pay levels for specific job categories and are generally conducted
-              either by region, sector or job classification for the purposes of
-              comparability. Many organizations want to use salary surveys to
-              set the compensation levels for their organizations; and for that
-              support enroute is there.
+              As part of our working expertise in sourcing and managing human
+              resources we often look for different expertise under different
+              departments. You can send your CV to us so when we are looking for
+              new recruits we can have a look straight away. Send your CV
+              directly at cv@enroute.com.bd.
+            </p>
+          </div>
+        </details>
+        <details className="details contactUsAccordionForm-details">
+          <summary className="summary summary-color">
+            Do you have any Job Now?
+          </summary>
+          <div className="p-div">
+            <p>
+              If you are looking for a job we can help you with it if your CV
+              fits the current criteria we are hiring for. Visit our dedicated
+              website https://emc.com.bd/ or follow us on Facebook & Linkedin to
+              get notified about open job positions we are currently hiring for
+              as well.
             </p>
           </div>
         </details>
