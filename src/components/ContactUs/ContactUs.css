@@ -1,3 +1,29 @@
+.common-contactUs-single-cart {
+  border-right: 2px solid gray;
+  border-width: 20px;
+}
+.commonColor-siz {
+  font-size: 30px;
+  font-weight: 500;
+  color: green;
+  margin-bottom: 40px;
+}
+
+.commonColor-siz-two {
+  color: red;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.common-div-style {
+  margin-top: 20px;
+  padding: 10px;
+}
+.email-common {
+  color: green;
+  font-weight: 500;
+}
+/*  */
 .contactUs-background-img-div {
   background-image: url("https://enroute.com.bd/wp-content/uploads/2022/05/contact-us-banner.jpg");
   background-repeat: no-repeat;
@@ -15,7 +41,7 @@
 .contactUs-cart-grid-div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 60%;
+  width: 75%;
   margin: auto;
   background-color: snow;
   box-shadow: 5px 5px 10px rgb(204, 203, 203);
@@ -23,9 +49,17 @@
   margin-bottom: 100px;
   padding: 20px;
 }
-.commonColor-siz {
-  font-size: 30px;
-  font-weight: 500;
+
+.phone-number {
   color: green;
-  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.common-p-color {
+  color: gray;
+}
+
+.contactUs-logo-div {
+  justify-content: center;
+  margin: auto;
 }

@@ -8,41 +8,41 @@ const ContactUs = () => {
         <h2 className="contactUs-heading">Contact Us</h2>
       </div>
       <div className="contactUs-cart-grid-div">
-        <div>
+        <div className="common-contactUs-single-cart">
           <h2 className="commonColor-siz">Get in Touch</h2>
 
-          <div>
-            <h4>Contact</h4>
-            <p>+88 01700000000</p>
-            <p>+88 017xxxxxxxx</p>
-            <p>+88 01708080808</p>
+          <div className="common-div-style">
+            <h4 className="commonColor-siz-two">Contact</h4>
+            <p className="phone-number">+88 01700000000</p>
+            <p className="phone-number">+88 017xxxxxxxx</p>
+            <p className="phone-number">+88 01708080808</p>
           </div>
           <div>
-            <div>
-              <h4>Assistance Hour:</h4>
-              <p>Sat - Thu 09:00am - 5:00pm</p>
-              <p>Friday - CLOSED</p>
+            <div className="common-div-style">
+              <h4 className="commonColor-siz-two">Assistance Hour:</h4>
+              <p className="common-p-color">Sat - Thu 09:00am - 5:00pm</p>
+              <p className="common-p-color"> Friday - CLOSED</p>
             </div>
           </div>
         </div>
-        <div>
+        <div className="common-contactUs-single-cart">
           <h2 className="commonColor-siz">Address and Mail</h2>
 
-          <div>
-            <h4>Address</h4>
-            <p>lorem Business Center (Level 4)</p>
-            <p>Ka-217/3, lorem address</p>
-            <p>Dhaka 1217</p>
+          <div className="common-div-style">
+            <h4 className="commonColor-siz-two">Address</h4>
+            <p className="common-p-color">lorem Business Center (Level 4)</p>
+            <p className="common-p-color">Ka-217/3, lorem address</p>
+            <p className="common-p-color">Dhaka 1217</p>
           </div>
-          <div>
-            <h4>E-mail</h4>
-            <p>infolorem@gmail.com</p>
-            <p>supportlorem@gmail.com</p>
+          <div className="common-div-style">
+            <h4 className="commonColor-siz-two">E-mail</h4>
+            <p className="email-common">infolorem@gmail.com</p>
+            <p className="email-common">supportlorem@gmail.com</p>
           </div>
         </div>
-        <div>
+        <div className="common-contactUs-single-cart">
           <h2 className="commonColor-siz">Social Media</h2>
-          <div className="footer-flex-parent-logo-div">
+          <div className="footer-flex-parent-logo-div contactUs-logo-div">
             <div className="footer-logo-div">
               <img
                 className="footer-logo"
