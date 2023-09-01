@@ -42,17 +42,7 @@ const Header = () => {
               <li>
                 <Link to="/home">Home</Link>
               </li>
-              <li>
-                <Link>Service</Link>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
+
               <li>
                 <Link to="/industry">Industry</Link>
               </li>
@@ -84,19 +74,7 @@ const Header = () => {
             <li className="home">
               <Link to="/home">Home</Link>
             </li>
-            <li tabIndex={0}>
-              <details>
-                <summary>Service</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
+
             <li>
               <Link to="/industry">Industry</Link>
             </li>

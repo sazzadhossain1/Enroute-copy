@@ -24,14 +24,18 @@ function App() {
         {
           path: "/",
           loader: async () => {
-            return fetch("http://localhost:5000/allApis");
+            return fetch(
+              "https://enroute-copy-server-sazzadhossain1.vercel.app/allApis"
+            );
           },
           element: <Home></Home>,
         },
         {
           path: "/home",
           loader: async () => {
-            return fetch("http://localhost:5000/allApis");
+            return fetch(
+              "https://enroute-copy-server-sazzadhossain1.vercel.app/allApis"
+            );
           },
           element: <Home></Home>,
         },
@@ -59,7 +63,7 @@ function App() {
           path: "/manageServiceProduct/:manageServiceProductId",
           loader: async ({ params }) => {
             return fetch(
-              `http://localhost:5000/allApis/${params.manageServiceProductId}`
+              `https://enroute-copy-server-sazzadhossain1.vercel.app/allApis/${params.manageServiceProductId}`
             );
           },
           element: <ManagedServiceProduct></ManagedServiceProduct>,
@@ -68,7 +72,7 @@ function App() {
           path: "/recruitmentButtonDataBy/:recruitmentButtonDataById",
           loader: async ({ params }) => {
             return fetch(
-              `http://localhost:5000/allApisTwo/${params.recruitmentButtonDataById}`
+              `https://enroute-copy-server-sazzadhossain1.vercel.app/allApisTwo/${params.recruitmentButtonDataById}`
             );
           },
           element: <RecruitmentButtonDataById></RecruitmentButtonDataById>,
@@ -76,7 +80,9 @@ function App() {
         {
           path: "/hrConsulting",
           loader: async () => {
-            return fetch("http://localhost:5000/allApis");
+            return fetch(
+              "https://enroute-copy-server-sazzadhossain1.vercel.app/allApis"
+            );
           },
 
           element: <HrConsulting></HrConsulting>,
@@ -84,14 +90,18 @@ function App() {
         {
           path: "/skillsRecruitment",
           loader: async () => {
-            return fetch("http://localhost:5000/allApis");
+            return fetch(
+              "https://enroute-copy-server-sazzadhossain1.vercel.app/allApis"
+            );
           },
           element: <SkillsRecruitment></SkillsRecruitment>,
         },
         {
           path: "/preEmploymentVerification",
           loader: async () => {
-            return fetch("http://localhost:5000/allApis");
+            return fetch(
+              "https://enroute-copy-server-sazzadhossain1.vercel.app/allApis"
+            );
           },
           element: <PreEmploymentVerification></PreEmploymentVerification>,
         },
@@ -102,7 +112,9 @@ function App() {
         {
           path: "/leadershipExecutiveCoaching",
           loader: async () => {
-            return fetch("http://localhost:5000/allApis");
+            return fetch(
+              "https://enroute-copy-server-sazzadhossain1.vercel.app/allApis"
+            );
           },
           element: <LeadershipExecutiveCoaching></LeadershipExecutiveCoaching>,
         },

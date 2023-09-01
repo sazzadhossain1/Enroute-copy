@@ -12,8 +12,8 @@ const ContactUsAccordionForm = () => {
         <h1 className="frequently">Frequently Asked Questions</h1>
       </div>
       <div className="accordionForm-children-div contactUsAccordionForm-children-div">
-        <details className="details contactUsAccordionForm-details">
-          <summary className="summary summary-color">
+        <details className="contactUsAccordionForm-details">
+          <summary className="summary-color">
             How can I get Outsourcing Services for business?
           </summary>
           <div className="p-div">
@@ -28,8 +28,8 @@ const ContactUsAccordionForm = () => {
             </p>
           </div>
         </details>
-        <details className="details contactUsAccordionForm-details">
-          <summary className="summary summary-color">
+        <details className="contactUsAccordionForm-details">
+          <summary className="summary-color">
             How can I get Facility Services to develop my business?
           </summary>
           <div className="p-div">
@@ -45,8 +45,8 @@ const ContactUsAccordionForm = () => {
             </p>
           </div>
         </details>
-        <details className="details contactUsAccordionForm-details">
-          <summary className="summary summary-color">
+        <details className=" contactUsAccordionForm-details">
+          <summary className=" summary-color">
             How can I get corporate Event Activation support for my company?
           </summary>
           <div className="p-div">
@@ -60,8 +60,8 @@ const ContactUsAccordionForm = () => {
             </p>
           </div>
         </details>
-        <details className="details contactUsAccordionForm-details">
-          <summary className="summary summary-color">
+        <details className=" contactUsAccordionForm-details">
+          <summary className="summary-color">
             Do you have any Training Now?
           </summary>
           <div className="p-div">
@@ -73,10 +73,8 @@ const ContactUsAccordionForm = () => {
             as well as visit https://sudoksho.com/ for self-paced learning.
           </div>
         </details>
-        <details className="details contactUsAccordionForm-details">
-          <summary className="summary summary-color">
-            How Can I send my CV?
-          </summary>
+        <details className=" contactUsAccordionForm-details">
+          <summary className="summary-color">How Can I send my CV?</summary>
           <div className="p-div">
             <p>
               As part of our working expertise in sourcing and managing human
@@ -87,10 +85,8 @@ const ContactUsAccordionForm = () => {
             </p>
           </div>
         </details>
-        <details className="details contactUsAccordionForm-details">
-          <summary className="summary summary-color">
-            How Can I send my CV?
-          </summary>
+        <details className=" contactUsAccordionForm-details">
+          <summary className="summary-color">How Can I send my CV?</summary>
           <div className="p-div">
             <p>
               As part of our working expertise in sourcing and managing human
@@ -101,10 +97,8 @@ const ContactUsAccordionForm = () => {
             </p>
           </div>
         </details>
-        <details className="details contactUsAccordionForm-details">
-          <summary className="summary summary-color">
-            Do you have any Job Now?
-          </summary>
+        <details className="contactUsAccordionForm-details">
+          <summary className=" summary-color">Do you have any Job Now?</summary>
           <div className="p-div">
             <p>
               If you are looking for a job we can help you with it if your CV

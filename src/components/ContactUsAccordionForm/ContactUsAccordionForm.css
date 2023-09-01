@@ -26,8 +26,10 @@
   color: rgb(70, 70, 70);
 }
 .contactUsAccordionForm-details {
-  background-color: rgb(230, 253, 230);
+  background-color: rgb(242, 252, 242);
   border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 10px rgb(168, 167, 167);
 }
 
 .summary-color {
@@ -35,6 +37,7 @@
   font-weight: 700;
   border-left: 3px solid green;
   border-radius: 5px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 900px) {
