@@ -1,0 +1,26 @@
+[debug] [2023-09-13T21:07:35.154Z] ----------------------------------------------------------------------
+[debug] [2023-09-13T21:07:35.156Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MSHT--sss\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-13T21:07:35.157Z] CLI Version:   12.5.4
+[debug] [2023-09-13T21:07:35.157Z] Platform:      win32
+[debug] [2023-09-13T21:07:35.158Z] Node Version:  v16.16.0
+[debug] [2023-09-13T21:07:35.158Z] Time:          Thu Sep 14 2023 03:07:35 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-09-13T21:07:35.159Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-13T21:07:35.252Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-13T21:07:35.253Z] > authorizing via signed-in user (sazzadtomal143@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\projects\Programming-Hero\Serious-projects\enroute-copy
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+

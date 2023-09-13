@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCTeN9M1wR-I1pBI6G3Jwx_Eg7TT9cwy9c",
-  authDomain: "enroute-copy.firebaseapp.com",
-  projectId: "enroute-copy",
-  storageBucket: "enroute-copy.appspot.com",
-  messagingSenderId: "470859959500",
-  appId: "1:470859959500:web:8fb92158eccbf6ed720669",
+  apiKey: "AIzaSyBjnK-QJpOvXiURfjaJTgvnQxWwGKP3HQU",
+  authDomain: "sazzad-enroute-copy-practice.firebaseapp.com",
+  projectId: "sazzad-enroute-copy-practice",
+  storageBucket: "sazzad-enroute-copy-practice.appspot.com",
+  messagingSenderId: "1680808376",
+  appId: "1:1680808376:web:9ac5beaaf4d1aed582174d",
 };
 
 // Initialize Firebase
